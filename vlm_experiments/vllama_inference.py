@@ -48,7 +48,7 @@ Return the result as a properly-formatted JSON object, using this format:
 """
     
     extractions = []
-    for i, filename in enumerate(sorted(glob('./Fintech/clip2_slides/*.jpg')), start=1):
+    for i, filename in enumerate(sorted(glob('../Fintech/clip2_slides/*.jpg')), start=1):
         message = [
             {
                 "role": "user",
@@ -116,7 +116,7 @@ Return the result as a JSON array in the same order as the slides, using this fo
                 "content": [
                     {
                         "type": "video",
-                        "video": {"video_path": "./Fintech/Lecture1_clip-2.mp4", "fps": 1, "max_frames": 16}
+                        "video": {"video_path": "../Fintech/Lecture1_clip-2.mp4", "fps": 1, "max_frames": 16}
                     },
                     {"type": "text", "text": video_prompt},
                 ],
@@ -162,7 +162,7 @@ Return the result as a JSON array in the same order as the slides, using this fo
             {
                 "role": "user",
                 "content": [
-                    {"type": "image", "image": {"image_path": filename}} for filename in sorted(glob('./Fintech/clip2_slides/*.jpg'))                
+                    {"type": "image", "image": {"image_path": filename}} for filename in sorted(glob('../Fintech/clip2_slides/*.jpg'))                
                 ] + [
                     {"type": "text", "text": multi_prompt}
                 ]
@@ -182,5 +182,5 @@ Return the result as a JSON array in the same order as the slides, using this fo
     print('--- JSON ---\n', json_string)
     extractions = json.loads(json_string)
 
-with open(f'vlm_results/vllama_{args.input_type}.json', 'w', encoding='utf-8') as f:
+with open(f'../vlm_results/vllama_{args.input_type}.json', 'w', encoding='utf-8') as f:
     json.dump(extractions, f, ensure_ascii=False, indent=4)

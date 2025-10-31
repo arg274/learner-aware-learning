@@ -59,7 +59,7 @@ Return the result as a JSON array in the same order as the slides, using this fo
             "content": [
                 {
                     "type": "video",
-                    "path": "./Fintech/Lecture1_clip-2.mp4"
+                    "path": "../Fintech/Lecture1_clip-2.mp4"
                 },
                 {"type": "text", "text": video_prompt},
             ],
@@ -105,7 +105,7 @@ Return the result as a JSON array in the same order as the slides, using this fo
         {
             "role": "user",
             "content": [
-                {"type": "image", "path": filename} for filename in sorted(glob('./Fintech/clip2_slides/*.jpg'))                
+                {"type": "image", "path": filename} for filename in sorted(glob('../Fintech/clip2_slides/*.jpg'))                
             ] + [
                 {"type": "text", "text": multi_prompt}
             ]
@@ -141,7 +141,7 @@ Return the result as a properly-formatted JSON object, using this format:
                 {"type": "text", "text": single_prompt},
             ],
         },
-    ] for filename in sorted(glob('./Fintech/clip2_slides/*.jpg'))]
+    ] for filename in sorted(glob('../Fintech/clip2_slides/*.jpg'))]
 
 inputs = processor.apply_chat_template(
     messages,
@@ -176,5 +176,5 @@ else:
     print('--- JSON ---\n', json_string)
     extractions = json.loads(json_string)
 
-with open(f'vlm_results/llava_{args.input_type}.json', 'w', encoding='utf-8') as f:
+with open(f'../vlm_results/llava_{args.input_type}.json', 'w', encoding='utf-8') as f:
     json.dump(extractions, f, ensure_ascii=False, indent=4)

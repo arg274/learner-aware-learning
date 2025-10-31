@@ -78,7 +78,7 @@ Return the result as a JSON array in the same order as the slides, using this fo
             "content": [
                 {
                     "type": "video",
-                    "video": "./Fintech/Lecture1_clip-2.mp4"
+                    "video": "../Fintech/Lecture1_clip-2.mp4"
                 },
                 {"type": "text", "text": video_prompt},
             ],
@@ -124,7 +124,7 @@ Return the result as a JSON array in the same order as the slides, using this fo
         {
             "role": "user",
             "content": [
-                {"type": "image", "image": filename} for filename in sorted(glob('./Fintech/clip2_slides/*.jpg'))                
+                {"type": "image", "image": filename} for filename in sorted(glob('../Fintech/clip2_slides/*.jpg'))                
             ] + [
                 {"type": "text", "text": multi_prompt}
             ]
@@ -160,7 +160,7 @@ Return the result as a properly-formatted JSON object, using this format:
                 {"type": "text", "text": single_prompt},
             ],
         },
-    ] for filename in sorted(glob('./Fintech/clip2_slides/*.jpg'))]
+    ] for filename in sorted(glob('../Fintech/clip2_slides/*.jpg'))]
 
 # Preparation for batch inference
 texts = [
@@ -202,5 +202,5 @@ else:
     print('--- JSON ---\n', json_string)
     extractions = json.loads(json_string)
 
-with open(f'vlm_results/qwen_{args.input_type}.json', 'w', encoding='utf-8') as f:
+with open(f'../vlm_results/qwen_{args.input_type}.json', 'w', encoding='utf-8') as f:
     json.dump(extractions, f, ensure_ascii=False, indent=4)

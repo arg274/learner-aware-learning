@@ -8,8 +8,8 @@ bertscore = evaluate.load("bertscore")
 
 scores = []
 
-results = glob('vlm_results/*.json')
-with open('Fintech/Lecture1_clip-2.json', 'r', encoding='utf-8') as reference_file:
+results = glob('../vlm_results/*.json')
+with open('../Fintech/Lecture1_clip-2.json', 'r', encoding='utf-8') as reference_file:
     reference = reference_file.read()
     
 for result_file in results:
@@ -36,4 +36,4 @@ for result_file in results:
     })
     
 scores_df = pd.DataFrame(scores)
-scores_df.to_excel('vlm_results/vlm_evaluation_scores.xlsx', index=False)
+scores_df.to_excel('../vlm_results/vlm_evaluation_scores.xlsx', index=False)
