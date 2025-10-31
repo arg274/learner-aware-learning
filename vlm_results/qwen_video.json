@@ -1,0 +1,54 @@
+[
+    {
+        "title": "Financial World",
+        "text": [
+            "Intermediates Money and Risk"
+        ],
+        "slide_number": 1
+    },
+    {
+        "title": "Financial World",
+        "text": [
+            "Intermediates Money and Risk",
+            "Functions",
+            "- Credit",
+            "- Investments",
+            "- Risk Information",
+            "- Capital Markets & Price Discovery",
+            "- Advice"
+        ],
+        "slide_number": 2
+    },
+    {
+        "title": "Financial World",
+        "text": [
+            "Intermediates Money and Risk",
+            "Sectors",
+            "- Commercial Banks & Credit Unions",
+            "- Asset Managers & Investment Vehicles",
+            "- Insurance Companies",
+            "- Investment Banks & Brokerage Firms",
+            "- Exchanges & Clearinghouses",
+            "- Financial Advisors"
+        ],
+        "slide_number": 3
+    },
+    {
+        "title": "Financial World",
+        "text": [
+            "Intermediates Money and Risk",
+            "Data",
+            "- Investing, Market Making, Marketing, Risk Management & Underwriting",
+            "- Funding & Risk Management",
+            "- Business Intelligence",
+            "- Marketplace & Securitizations",
+            "- Derivatives, Guarantees & Reinsurance",
+            "Risk",
+            "- Credit: Funding; Liquidity; Market (Basis, Price, Rate, Spread, Volatility)",
+            "- Model: Operational/Reputational/Compliance",
+            "- Accidents, Disasters, Natural Disasters, Weather",
+            "User Experience & User Interface"
+        ],
+        "slide_number": 4
+    }
+]
