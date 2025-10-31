@@ -1,0 +1,26 @@
+[
+  {
+    "slide_number": 2,
+    "start_time": 0.0,
+    "end_time": 0.9677108551174125,
+    "duration": 0.9677108551174125
+  },
+  {
+    "slide_number": 1,
+    "start_time": 0.9677108551174125,
+    "end_time": 171.28482135578201,
+    "duration": 170.3171105006646
+  },
+  {
+    "slide_number": 2,
+    "start_time": 171.28482135578201,
+    "end_time": 261.2819308817014,
+    "duration": 89.99710952591937
+  },
+  {
+    "slide_number": 3,
+    "start_time": 261.2819308817014,
+    "end_time": 301.2584,
+    "duration": 39.97646911829861
+  }
+]
