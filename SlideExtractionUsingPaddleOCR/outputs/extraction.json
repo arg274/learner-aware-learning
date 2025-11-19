@@ -1,0 +1,764 @@
+{
+  "source": "intro_to_fintech.pdf",
+  "engine": "pymupdf+ocr:paddle+math",
+  "num_pages": 29,
+  "pages": [
+    {
+      "page": 1,
+      "paragraphs": [
+        {
+          "text": "FinTech:"
+        },
+        {
+          "text": "Shaping the Financial World"
+        },
+        {
+          "text": "Intro - March 30, 2020"
+        },
+        {
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "paragraphs": [
+        {
+          "text": "FinTech 15.S08"
+        },
+        {
+          "text": "• For those wishing to explore FinTech:\n•\n•\n•\n•"
+        },
+        {
+          "text": "•\n•\n•"
+        },
+        {
+          "text": "How new technologies are disrupting the financial services industry\nBusiness models, products, applications and customer user interface\nAI, Deep learning, Blockchain Technology and Open API’s\nCompetitive Landscape of FinTech Startups & Big Tech vs. Big Finance"
+        },
+        {
+          "text": "For those who wish to gain critical reasoning skills to:"
+        },
+        {
+          "text": "Understand the ‘ground truths’ of FinTech\nConduct Business & Technology Strategic Analysis"
+        },
+        {
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "paragraphs": [
+        {
+          "text": "Intro Class: Readings"
+        },
+        {
+          "text": "• 'The economic forces driving fintech adoption across countries'"
+        },
+        {
+          "text": "Frost, BIS Working Papers"
+        },
+        {
+          "text": "• 'FinTech and market structure in financial services'"
+        },
+        {
+          "text": "Board"
+        },
+        {
+          "text": "• 'The Future of Banking'"
+        },
+        {
+          "text": "Jon"
+        },
+        {
+          "text": "Financial Stability"
+        },
+        {
+          "text": "FDIC Chair Jelena McWilliams"
+        },
+        {
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "paragraphs": [
+        {
+          "text": "Intro Class: Study Questions"
+        },
+        {
+          "text": "• What are the major technological trends materially influencing the"
+        },
+        {
+          "text": "provision of financial services?"
+        },
+        {
+          "text": "• How is the competitive landscape shaping adoption of these new"
+        },
+        {
+          "text": "technologies around the globe? How are FinTech start-ups and Big Tech\nfirms competing and cooperating with incumbents from big finance?\nHow has Big Finance reacted?"
+        },
+        {
+          "text": "• What do you wish to achieve in this Fintech course?"
+        },
+        {
+          "text": "4"
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "paragraphs": [
+        {
+          "text": "Intro Class: Overview"
+        },
+        {
+          "text": "• Financial World\n• FinTech\n• AI, Open Banking & Blockchain Technology\n• The Actors\n• Teaching Team, Schedule, Assignments & Office Hours"
+        },
+        {
+          "text": "5"
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "paragraphs": [
+        {
+          "text": "Financial World"
+        },
+        {
+          "text": "Intermediates Money and Risk"
+        },
+        {
+          "text": "• Functions •\n• Credit •\n• Investments •\n• Risk Transformation •\n• Capital Markets & •\nPrice Discovery •\n• Advice •"
+        },
+        {
+          "text": "Sectors"
+        },
+        {
+          "text": "Commercial Banks & Credit Unions\nAsset Managers & Investment Vehicles\nInsurance Companies & Underwriters\nInvestment Banks & Brokerage Firms\nExchanges & Clearinghouses\nFinancial Advisors"
+        },
+        {
+          "text": "6"
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "paragraphs": [
+        {
+          "text": "Financial World"
+        },
+        {
+          "text": "Intermediates Money and Risk"
+        },
+        {
+          "text": "Data\n• Investing, Market Making, Marketing, Risk Management & Underwriting"
+        },
+        {
+          "text": "Funding & Risk Management\n• Balance Sheet & Capital\n• Marketplace & Securitizations\n• Derivatives, Guarantees & Reinsurance"
+        },
+        {
+          "text": "Risks\n• Credit; Funding; Liquidity; Market (Basis, Price, Rate, Spread, Volatility)\n• Model; Operational; Reputational / Compliance\n• Accidents; Health; Life Events; Natural Disasters; Weather"
+        },
+        {
+          "text": "User Experience & User Interface 7"
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "paragraphs": [
+        {
+          "text": "FinTech"
+        },
+        {
+          "text": "• ‘Technology-enabled innovation in financial services\nassociated with new business models, applications,\nprocesses or products, all of which have a material\neffect …’"
+        },
+        {
+          "text": "Financial Stability Board"
+        },
+        {
+          "text": "8"
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "paragraphs": [
+        {
+          "text": "FinTech -"
+        },
+        {
+          "text": "FinTech – Technologies of our Times"
+        },
+        {
+          "text": "AI & ML AI & ML Blockchain"
+        },
+        {
+          "text": "Biometrics Chatbots"
+        },
+        {
+          "text": "Open API by RestCase. Used with permission.Rest of the images: © Sources unknown. All rights reserved. This content is excluded from our Creative Commons license. For more information, see"
+        },
+        {
+          "text": "of Times"
+        },
+        {
+          "text": "Community Third-Party Developer Extend Customer Reach"
+        },
+        {
+          "text": "Increase Revenue"
+        },
+        {
+          "text": "Backend Systems Open API Mobile & Web Applications Stimulate Innovation"
+        },
+        {
+          "text": "Natural Language Open API"
+        },
+        {
+          "text": "Possessing"
+        },
+        {
+          "text": "Robotic Process"
+        },
+        {
+          "text": "Cloud Automation Automation 9"
+        },
+        {
+          "text": "https://ocw.mit.edu/help/faq-fair-use/ 6"
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "paragraphs": [
+        {
+          "text": "Customer Interface"
+        },
+        {
+          "text": "Automatic Teller Machines (1970s) >"
+        },
+        {
+          "text": "Credit Cards (1940 – 50s) & Point of Sale Systems (1980s) >"
+        },
+        {
+          "text": "Mortgage Brokerage (1890s) & Automobile Indirect Lenders (1910s) >"
+        },
+        {
+          "text": "Electronic Payments (1870s), Wires (1910s), ACH (1970s) & Direct Deposits (1970s) >"
+        },
+        {
+          "text": "Checks (800s), Negotiable Checks (1500s), & Preprinted Checks (1760s) >"
+        },
+        {
+          "text": "Banking - Tents, Temples, Bricks & Mortar (4 th– 1 st millennium BCE) >"
+        },
+        {
+          "text": "Chatbots, CI & Voice Assistants (2010s)"
+        },
+        {
+          "text": "Open APIs (2000s) & Open Banking (2015)"
+        },
+        {
+          "text": "Contactless & Cardless Systems (2000s) >"
+        },
+        {
+          "text": "Mobile Payments (2000s) & Wallets (2008) >"
+        },
+        {
+          "text": "Internet (1990s) & On-line Banking (1990s - 2000s) >"
+        },
+        {
+          "text": "10"
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "paragraphs": [
+        {
+          "text": "Funding & Risk Management"
+        },
+        {
+          "text": "Consumer Credit Scoring (1960s) & FICO Scores (1990s) >"
+        },
+        {
+          "text": "Consumer Finance Companies & Warehouse Lines of Credit (1920s) >"
+        },
+        {
+          "text": "Private (1880s, 1950s), Government (1930s) & GSEs (1930s) Mortgage Insurance >"
+        },
+        {
+          "text": "Bankruptcy & Secured Lending Laws, Loan Servicing & Collection Agents (Days of old) >"
+        },
+        {
+          "text": "Bank Deposits - (Antiquity) >"
+        },
+        {
+          "text": "ML Based Underwriting (2010s) >"
+        },
+        {
+          "text": "Peer to Peer Lending (2005) >"
+        },
+        {
+          "text": "Credit Default Swaps (1990s) >"
+        },
+        {
+          "text": "Asset Backed Securitizations (1970s – 90s) >"
+        },
+        {
+          "text": "Interest Rate Futures (1970s) & Interest Rate Swaps (1980s) >"
+        },
+        {
+          "text": "11"
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "paragraphs": [
+        {
+          "text": "FinTech - Finance’s Fertile Ground"
+        },
+        {
+          "text": "• Digitalization of Money, Securities and Credit\n• Vast and Expanding Amounts of Customer Data\n• Rapid Expansion of Computational & Analytical Power\n• Reliance on Multiple Systems of Ledgers\n• Wide Public Acceptance of New Tech\n• Legacy Customer Interface and Processing Systems\n• Infrastructure Systems’ Costs and Counterparty Risks\n• Economic Rents and Centralized Concentrated Risks"
+        },
+        {
+          "text": "12"
+        }
+      ]
+    },
+    {
+      "page": 13,
+      "paragraphs": [
+        {
+          "text": "•\n•\n•"
+        },
+        {
+          "text": "•\n•"
+        },
+        {
+          "text": "•\n•"
+        },
+        {
+          "text": "FinTech – Disruptive Potential"
+        },
+        {
+          "text": "AI for Managing Risks & Targeting Products\nUpdated Customer User Interface and Robo Advice\nGreater Financial Inclusion & Tailored Services\n‘Internet of Value’: Movement of Value & Micro Payments\nStreamlined Accounting, Clearing, Compliance & Processing Systems"
+        },
+        {
+          "text": "Some Revenue Models shift to Data in exchange for Free Services\nEfficiencies & Tighter Margins in Financial Sector"
+        },
+        {
+          "text": "13"
+        }
+      ]
+    },
+    {
+      "page": 14,
+      "paragraphs": [
+        {
+          "text": "AI AI and Machine Learning"
+        },
+        {
+          "text": "What is it:\nExtract useful patterns from data.\nHow:\nNeural network + optimization\nHow (Practical):\nPython + TensorFlow & friends\nHard Part:\nGood Questions + Good Data\nWhy now:\nData, hardware, community, tools,\ninvestment\nwhere do we stand?\nMost big questions of intelligence\nhave not been answered nor\nproperly formulated"
+        },
+        {
+          "text": "Source: ‘Deep Learning Basics’ Lex Fridman"
+        },
+        {
+          "text": "Repre Lea"
+        },
+        {
+          "text": "Deep Learning in One Slide Machir"
+        },
+        {
+          "text": "Learnir"
+        },
+        {
+          "text": "Exciting progress: Artificial"
+        },
+        {
+          "text": "Face recognition Intelligence\nImage classification\nSpeech recognition\nText-to-speech generation\nHandwriting transcription\nMachine translation\nMedical diagnosis\nCars: drivable area, lane keeping\nDigital assistants\nAds, search, social recommendations\nGame playing with deep RL"
+        },
+        {
+          "text": ". Used with permission 14 14"
+        }
+      ]
+    },
+    {
+      "page": 15,
+      "paragraphs": [
+        {
+          "text": "• Asset Management\n•\n•\n• Fraud Detection & Prevention\n•\n• Risk Management & Underwriting\n• Robotic Process Automation\n• Trading"
+        },
+        {
+          "text": "AI and Machine Learning - Finance"
+        },
+        {
+          "text": "Call Centers, Chatbots, Robo-Advising & Virtual Assistants\nCredit (& Insurance) Allocation, Extension, Pricing & Scoring"
+        },
+        {
+          "text": "Regulatory – Anti Money Laundering, Anti Manipulation"
+        },
+        {
+          "text": "Image by Lex Fridman. Used with permission. 15"
+        }
+      ]
+    },
+    {
+      "page": 16,
+      "paragraphs": [
+        {
+          "text": "Open API & Open Banking"
+        },
+        {
+          "text": "•"
+        },
+        {
+          "text": "Data into Third Party Applications\n•"
+        },
+        {
+          "text": "Share Permissioned Bank Customer Data\n•"
+        },
+        {
+          "text": "•\n•"
+        },
+        {
+          "text": "Open Application Program Interfaces (Open API) allow outside\nDevelopers access to and an ability to Integrate Permissioned Customer"
+        },
+        {
+          "text": "Open Banking initiatives facilitate or mandate Open API for Non-banks to"
+        },
+        {
+          "text": "Policy Trade-offs of Promoting Competition & Innovation, Limiting\nCybersecurity Risks, and Maintaining Privacy & Consumer Protections\nEU Payment System Directive (PSD2), UK Open Banking Initiative, etc.\nPlus Screen Scraping, Reverse Engineering & Robotic Process Automation"
+        },
+        {
+          "text": "16"
+        }
+      ]
+    },
+    {
+      "page": 17,
+      "paragraphs": [
+        {
+          "text": "Blockchain Tech Potential Uses"
+        },
+        {
+          "text": "• Speculative Investing\n• Crowdfunding through Initial Coin Offerings\n• Tokens for Exchanges, Gaming, Gambling, DeFi & File Sharing\n• Tokenized Fiat (Stable Value Coins), Securities & Assets\n• Payment Systems\n• Trade Finance & Supply Chain Management\n• Clearing, Settlement & Processing\n• Central Bank Digital Currencies & Payment Initiatives\n• Digital ID & MIT Diploma\n• Medical Records, Property Records, Internet of Things, Voting … 17"
+        }
+      ]
+    },
+    {
+      "page": 18,
+      "paragraphs": [
+        {
+          "text": "FinTech – The Actors"
+        },
+        {
+          "text": "• Big Finance\n•"
+        },
+        {
+          "text": "• Big Tech DNA Loop (BIS)"
+        },
+        {
+          "text": "• Start-ups"
+        },
+        {
+          "text": "• Official Sector"
+        },
+        {
+          "text": ": Like Fortresses w/ Moats, Towers & Sovereign Affiliations"
+        },
+        {
+          "text": "Towers: 1) Payments, 2) Balance Sheets, 3) Data, 4) Corporate Structure"
+        },
+        {
+          "text": ": 1) Data, 2) Networks, 3) Activities"
+        },
+        {
+          "text": ": 1) Disruptive Innovators, 2) Flexibility, 3) Asymmetric Risk Takers"
+        },
+        {
+          "text": ": Goals: 1) Innovation, 2) Inclusion, 3) Financial Stability, 4)"
+        },
+        {
+          "text": "Investor & Consumer Protection & 5) Guarding against Illicit Activities"
+        },
+        {
+          "text": "18"
+        }
+      ]
+    },
+    {
+      "page": 19,
+      "paragraphs": [
+        {
+          "text": "Big Finance"
+        },
+        {
+          "text": "Big Finance"
+        },
+        {
+          "text": "Bank of America BlackRock"
+        },
+        {
+          "text": "CIBC"
+        },
+        {
+          "text": "China Construction Bank"
+        },
+        {
+          "text": "Goldman HSBC\nTSachs"
+        },
+        {
+          "text": "MUFG Nasdaq"
+        },
+        {
+          "text": "® BNP PARIBAS CHASE"
+        },
+        {
+          "text": "citi Fidelity"
+        },
+        {
+          "text": "INVES"
+        },
+        {
+          "text": "ICBC E3 ice NYSE"
+        },
+        {
+          "text": "STATE STREET Vanguard 19"
+        }
+      ]
+    },
+    {
+      "page": 20,
+      "paragraphs": [
+        {
+          "text": "FinTech – Payments & Credit\nBig Tech"
+        },
+        {
+          "text": "Payment Unicorns"
+        },
+        {
+          "text": "Credit Unicorns"
+        },
+        {
+          "text": "20"
+        }
+      ]
+    },
+    {
+      "page": 21,
+      "paragraphs": [
+        {
+          "text": "FinTech – Other Startup ‘Unicorns’\n• Insurance and Benefits"
+        },
+        {
+          "text": "• Trading and Capital Markets"
+        },
+        {
+          "text": "• Asset Management and Advisory"
+        },
+        {
+          "text": "• Comprehensive"
+        },
+        {
+          "text": "21"
+        }
+      ]
+    },
+    {
+      "page": 22,
+      "paragraphs": [
+        {
+          "text": "© Accenture. All rights reserved. This content is excluded from our Creative Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/"
+        },
+        {
+          "text": "22"
+        },
+        {
+          "text": "Source: ‘Fintech Fundraising Grew Strongly in Most Major Markets in 2019, Accenture Analysis Finds’, Accenture (2/20/20)"
+        }
+      ]
+    },
+    {
+      "page": 23,
+      "paragraphs": [
+        {
+          "text": "Teaching Team"
+        },
+        {
+          "text": "Gary Gensler Romain de Saint Perier"
+        },
+        {
+          "text": "Faculty TA"
+        },
+        {
+          "text": "Lena Ngor"
+        },
+        {
+          "text": "Administrator"
+        },
+        {
+          "text": "23"
+        }
+      ]
+    },
+    {
+      "page": 24,
+      "paragraphs": [
+        {
+          "text": "FinTech: Technologies"
+        },
+        {
+          "text": "•"
+        },
+        {
+          "text": "• Class 3 (4/6): Artificial Intelligence in Finance"
+        },
+        {
+          "text": "• Class 4 (4/8): Open API’s & Marketing Channels"
+        },
+        {
+          "text": "• Class 5 (4/13): Blockchain Technology & Cryptocurrencies"
+        },
+        {
+          "text": "Class 2 (4/1): Artificial Intelligence, Machine Learning and Deep Learning"
+        },
+        {
+          "text": "24"
+        }
+      ]
+    },
+    {
+      "page": 25,
+      "paragraphs": [
+        {
+          "text": "FinTech: Sectors"
+        },
+        {
+          "text": "• Class 6 (4/15): Payments"
+        },
+        {
+          "text": "• Class 7 (4/22): Credit & Lending"
+        },
+        {
+          "text": "• Class 8 (4/27): Challenger Banks"
+        },
+        {
+          "text": "• Class 9 (4/29): Trading & Capital Markets"
+        },
+        {
+          "text": "• Class 10 (5/4): Risk Management & Regulation"
+        },
+        {
+          "text": "25"
+        }
+      ]
+    },
+    {
+      "page": 26,
+      "paragraphs": [
+        {
+          "text": "FinTech: Wrapping it All Together"
+        },
+        {
+          "text": "• Class 1 (3/30): Intro & Key Technological Trends Affecting Financial"
+        },
+        {
+          "text": "Services"
+        },
+        {
+          "text": "• Class 11(5/6): Corona Crisis & Finance"
+        },
+        {
+          "text": "• Class 12 (5/11): Conclusion"
+        },
+        {
+          "text": "26"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "paragraphs": [
+        {
+          "text": "Assignments\n• Group Research Paper (3000 – 3600 words due 5/11)\n•\n• To CEO of B of A, Amazon, or Andreessen Horowitz\n• Teams required to be Formed and Sector Selected by 4/8"
+        },
+        {
+          "text": "• Individual Business Write-up (900 – 1200 words due 4/24)\n• Each student individually addresses 1 of the following:\n•"
+        },
+        {
+          "text": "• Class Participation"
+        },
+        {
+          "text": "40%"
+        },
+        {
+          "text": "Recommended business and technology strategy within a particular sector"
+        },
+        {
+          "text": "30%"
+        },
+        {
+          "text": "a) overall market analysis, b) technology trend analysis, c) traditional\ncompetitor analysis, & d) big tech & fintech disrupter competitive analysis"
+        },
+        {
+          "text": "30%"
+        },
+        {
+          "text": "27"
+        }
+      ]
+    },
+    {
+      "page": 28,
+      "paragraphs": [
+        {
+          "text": "•\n•\n•\n•\n•"
+        },
+        {
+          "text": "•\n• It respects other Authors\n•"
+        },
+        {
+          "text": "Professionalism & Academic Integrity"
+        },
+        {
+          "text": "Success goes to those Prepared, Curious & Self Starters\nRespect & Courtesy builds Reputations, Networks & Trust\nLearning comes best to those who Listen as well as Talk\nUnderstanding Strategy and Paying Attention to Details both Matter\nStaying True to your Values is the best alternative"
+        },
+        {
+          "text": "Avoiding Plagiarism is not just an Academic Integrity Policy"
+        },
+        {
+          "text": "It protects one’s Grade, Job and Reputation"
+        },
+        {
+          "text": "Be attentive, speak in class, keep your video on, and audio muted unless speaking\nProper attribution of quotes and paraphrasing is required 28"
+        }
+      ]
+    },
+    {
+      "page": 29,
+      "paragraphs": [
+        {
+          "text": "MIT OpenCourseWare https://ocw.mit.edu/"
+        },
+        {
+          "text": "15.S08 FinTech: Shaping the Financial World Spring 2020"
+        },
+        {
+          "text": "For information about citing these materials or our Terms of Use, visit:"
+        },
+        {
+          "text": "https://ocw.mit.edu/terms."
+        },
+        {
+          "text": "29"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "page": 14,
+  "paragraphs": [
+    {
+      "text": "AI AI and Machine Learning"
+    },
+    {
+      "text": "What is it:\nExtract useful patterns from data.\nHow:\nNeural network + optimization\nHow (Practical):\nPython + TensorFlow & friends\nHard Part:\nGood Questions + Good Data\nWhy now:\nData, hardware, community, tools,\ninvestment\nwhere do we stand?\nMost big questions of intelligence\nhave not been answered nor\nproperly formulated"
+    },
+    {
+      "text": "Source: ‘Deep Learning Basics’ Lex Fridman"
+    },
+    {
+      "text": "Repre Lea"
+    },
+    {
+      "text": "Deep Learning in One Slide Machir"
+    },
+    {
+      "text": "Learnir"
+    },
+    {
+      "text": "Exciting progress: Artificial"
+    },
+    {
+      "text": "Face recognition Intelligence\nImage classification\nSpeech recognition\nText-to-speech generation\nHandwriting transcription\nMachine translation\nMedical diagnosis\nCars: drivable area, lane keeping\nDigital assistants\nAds, search, social recommendations\nGame playing with deep RL"
+    },
+    {
+      "text": ". Used with permission 14 14"
+    }
+  ]
+}
