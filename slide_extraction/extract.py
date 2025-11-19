@@ -4,7 +4,8 @@ from pdf2image import convert_from_path
 from pathlib import Path
 import json
 from typing import List, Dict
-
+from .sam import ScreenDetector
+import torch
 
 class SlideExtractor:
     def __init__(self, video_path: str, pdf_path: str, 
@@ -209,6 +210,11 @@ class SlideExtractor:
         
         print("Matching frames to slides...")
         frame_count = 0
+
+        detector = ScreenDetector(
+            model_name="facebook/sam2.1-hiera-large",  # Choose model variant
+            device="cuda" if torch.cuda.is_available() else "cpu"
+        )
         
         while True:
             ret, frame = cap.read()
@@ -217,7 +223,16 @@ class SlideExtractor:
             
             if frame_count % sample_every_n_frames == 0:
                 timestamp = frame_count / fps
-                slide_idx = self.find_closest_slide(frame)
+
+                # Use SAM to extract slide from frame
+                mask = detector.detect_screen_auto(frame)
+                screen_region = None
+                if mask is not None:
+                    screen_region = detector.extract_screen_region(frame, mask)
+                if screen_region is None:
+                    continue
+                
+                slide_idx = self.find_closest_slide(screen_region)
                 
                 timestamps.append(timestamp)
                 matched_slides.append(slide_idx)
@@ -261,8 +276,16 @@ class SlideExtractor:
             ret, frame = cap.read()
             
             if ret:
+                # Use SAM to extract slide from frame
+                mask = detector.detect_screen_auto(frame)
+                screen_region = None
+                if mask is not None:
+                    screen_region = detector.extract_screen_region(frame, mask)
+                if screen_region is None:
+                    screen_region = frame
+
                 frame_path = output_path / f"slide_{slide_info['slide_number']:03d}.jpg"
-                cv2.imwrite(str(frame_path), frame)
+                cv2.imwrite(str(frame_path), screen_region)
         
         cap.release()
         
