@@ -3,13 +3,12 @@ import numpy as np
 from pdf2image import convert_from_path
 from pathlib import Path
 import json
-from typing import List, Dict
+from typing import List, Dict, Tuple
 from .sam import ScreenDetector
-import torch
 
 class SlideExtractor:
     def __init__(self, video_path: str, pdf_path: str, 
-                 sample_interval: float = 1.0):
+                 sample_interval: float = 1.0, use_sam: bool = False):
         """
         Initialize the slide extractor.
         
@@ -22,6 +21,7 @@ class SlideExtractor:
         self.pdf_path = pdf_path
         self.sample_interval = sample_interval
         self.reference_slides = []
+        self.use_sam = use_sam
         
     def load_pdf_slides(self) -> List[np.ndarray]:
         """Load PDF pages as images."""
@@ -114,32 +114,41 @@ class SlideExtractor:
         
         return best_idx
     
-    def apply_sequential_constraint(self, slide_sequence: List[int]) -> List[int]:
+    def apply_sequential_constraint(self, timestamps: List[float], slide_sequence: List[int]) -> Tuple[List[float], List[int]]:
         """
         Apply sequential constraint: fill in missing slides.
         If we jump from slide 2 to slide 5, we must have gone through 3 and 4.
         """
-        if not slide_sequence:
-            return []
+        if not timestamps or not slide_sequence:
+            return [], []
         
         result = [slide_sequence[0]]
+        result_timestamps = [timestamps[0]]
         
         for i in range(1, len(slide_sequence)):
             prev_slide = result[-1]
             curr_slide = slide_sequence[i]
+            prev_timestamp = result_timestamps[-1]
+            curr_timestamp = timestamps[i]
             
             if curr_slide == prev_slide:
                 result.append(curr_slide)
-            elif curr_slide > prev_slide:
-                # Moving forward: add all intermediate slides
-                for s in range(prev_slide + 1, curr_slide + 1):
-                    result.append(s)
+                result_timestamps.append(curr_timestamp)
             else:
-                # Moving backward: add all intermediate slides in reverse
-                for s in range(prev_slide - 1, curr_slide - 1, -1):
-                    result.append(s)
+                # Assume missing slides are evenly spaced in time
+                delta = (curr_timestamp - prev_timestamp) / abs(curr_slide - prev_slide)
+                if curr_slide > prev_slide:
+                    # Moving forward: add all intermediate slides
+                    for s in range(prev_slide + 1, curr_slide + 1):
+                        result.append(s)
+                        result_timestamps.append(result_timestamps[-1] + delta)
+                else:
+                    # Moving backward: add all intermediate slides in reverse
+                    for s in range(prev_slide - 1, curr_slide - 1, -1):
+                        result.append(s)
+                        result_timestamps.append(result_timestamps[-1] + delta)
         
-        return result
+        return result_timestamps, result
     
     def condense_to_ranges(self, timestamps: List[float], 
                           slides: List[int]) -> List[Dict]:
@@ -211,10 +220,12 @@ class SlideExtractor:
         print("Matching frames to slides...")
         frame_count = 0
 
-        detector = ScreenDetector(
-            model_name="facebook/sam2.1-hiera-large",  # Choose model variant
-            device="cuda" if torch.cuda.is_available() else "cpu"
-        )
+        if self.use_sam:
+            import torch
+            detector = ScreenDetector(
+                model_name="facebook/sam2.1-hiera-large",  # Choose model variant
+                device="cuda" if torch.cuda.is_available() else "cpu"
+            )
         
         while True:
             ret, frame = cap.read()
@@ -225,12 +236,15 @@ class SlideExtractor:
                 timestamp = frame_count / fps
 
                 # Use SAM to extract slide from frame
-                mask = detector.detect_screen_auto(frame)
-                screen_region = None
-                if mask is not None:
-                    screen_region = detector.extract_screen_region(frame, mask)
-                if screen_region is None:
-                    continue
+                if self.use_sam:
+                    mask = detector.detect_screen_auto(frame)
+                    screen_region = None
+                    if mask is not None:
+                        screen_region = detector.extract_screen_region(frame, mask)
+                    if screen_region is None:
+                        continue
+                else:
+                    screen_region = frame
                 
                 slide_idx = self.find_closest_slide(screen_region)
                 
@@ -253,7 +267,7 @@ class SlideExtractor:
         print("Applying sequential constraint...")
         
         # Apply sequential constraint
-        constrained_slides = self.apply_sequential_constraint(matched_slides)
+        timestamps, constrained_slides = self.apply_sequential_constraint(timestamps, matched_slides)
         
         print("Condensing to time ranges...")
         
@@ -276,11 +290,14 @@ class SlideExtractor:
             ret, frame = cap.read()
             
             if ret:
-                # Use SAM to extract slide from frame
-                mask = detector.detect_screen_auto(frame)
                 screen_region = None
-                if mask is not None:
-                    screen_region = detector.extract_screen_region(frame, mask)
+                
+                # Use SAM to extract slide from frame
+                if self.use_sam:
+                    mask = detector.detect_screen_auto(frame)
+                    if mask is not None:
+                        screen_region = detector.extract_screen_region(frame, mask)
+                
                 if screen_region is None:
                     screen_region = frame
 

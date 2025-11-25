@@ -13,3 +13,4 @@ extracted_slides/
 
 # Project-specific ignores
 output/
+*.mp4
