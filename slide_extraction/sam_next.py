@@ -17,7 +17,7 @@ from sam3 import build_sam3_image_model
 from sam3.model.sam3_image_processor import Sam3Processor
 
 
-def parse_args():
+def parse_args(argv=None):
     parser = argparse.ArgumentParser(
         description='Crop videos using SAM3 object detection',
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
@@ -25,8 +25,6 @@ def parse_args():
     parser.add_argument('input', help='Input video file or directory')
     parser.add_argument('output', help='Output directory')
     parser.add_argument('--prompt', default='slide', help='Text prompt for object detection')
-    parser.add_argument('--bpe-path', default='./assets/bpe_simple_vocab_16e6.txt.gz',
-                        help='Path to BPE vocabulary file')
     parser.add_argument('--frames', type=int, default=32,
                         help='Number of frames to sample for detection')
     parser.add_argument('--iou-threshold', type=float, default=0.5,
@@ -39,7 +37,7 @@ def parse_args():
                         help='Output resolution as WIDTHxHEIGHT (e.g., 1920x1080)')
     parser.add_argument('--batch-size', type=int, default=8,
                         help='Batch size for inference')
-    return parser.parse_args()
+    return parser.parse_args(argv)
 
 
 def check_ffmpeg():
@@ -265,8 +263,8 @@ def process_video(video_path, output_dir, args, processor, use_ffmpeg):
         return False
 
 
-def main():
-    args = parse_args()
+def main(argv=None):
+    args = parse_args(argv)
     
     torch.backends.cuda.matmul.allow_tf32 = True
     torch.backends.cudnn.allow_tf32 = True
@@ -281,7 +279,7 @@ def main():
     print(f"Using {'FFmpeg (fast)' if use_ffmpeg else 'OpenCV (slow)'}\n")
     
     print("Loading SAM3 model...")
-    model = build_sam3_image_model(bpe_path=args.bpe_path)
+    model = build_sam3_image_model(bpe_path=Path(sam3.__path__[0]).parent / 'assets' / 'bpe_simple_vocab_16e6.txt.gz')
     processor = Sam3Processor(model, confidence_threshold=args.confidence)
     print("Model loaded\n")
     
