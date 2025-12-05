@@ -10,7 +10,7 @@ class VLM():
         self.model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
             model_name, torch_dtype="auto", device_map="auto"
         )
-        self.processor = AutoProcessor.from_pretrained(model_name)
+        self.processor = AutoProcessor.from_pretrained(model_name, use_fast=True)
         
         self.prompt = """You are given an image of a slide in a slideshow. Do the following:
 1. Identify the main heading or title of the slide and put it in a "title" field.  
@@ -42,34 +42,39 @@ Return the result as a properly-formatted JSON object, using this format:
             },
         ] for filename in sorted(glob(slides_path + "/*.jpg"))]
         
-        # Preparation for batch inference
-        texts = [
-            self.processor.apply_chat_template(msg, tokenize=False, add_generation_prompt=True)
-            for msg in messages
-        ]
-        image_inputs, video_inputs = process_vision_info(messages)
-        inputs = self.processor(
-            text=texts,
-            images=image_inputs,
-            videos=video_inputs,
-            padding=True,
-            return_tensors="pt",
-        )
-        inputs = inputs.to("cuda")
-        
-        # Batch Inference
-        generated_ids = self.model.generate(**inputs, max_new_tokens=512)
-        generated_ids_trimmed = [
-            out_ids[len(in_ids) :] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
-        ]
-        output_texts = self.processor.batch_decode(
-            generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
-        )
+        # Loop through each slide and perform inference
+        output_texts = []
+        for msg in messages:
+            text = self.processor.apply_chat_template(msg, tokenize=False, add_generation_prompt=True)
+            image_inputs, video_inputs = process_vision_info(msg)
+            inputs = self.processor(
+                text=[text],
+                images=image_inputs,
+                videos=video_inputs,
+                padding=True,
+                padding_side="left",
+                return_tensors="pt",
+            )
+            inputs = inputs.to("cuda")
+            
+            # Inference
+            generated_ids = self.model.generate(**inputs, max_new_tokens=512)
+            generated_ids_trimmed = [
+                out_ids[len(in_ids) :] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
+            ]
+            output_texts += self.processor.batch_decode(
+                generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
+            )
         
         # Extract JSON from outputs
         extractions = []
         for i, response in enumerate(output_texts, start=1):
-            json_string = max(regex.findall(r'\{(?:[^{}]|(?R))*\}', response), key=len)
+            try:
+                json_string = max(regex.findall(r'\{(?:[^{}]|(?R))*?\}', response), key=len)
+            except ValueError:
+                print(f"Warning: No JSON found in response for slide {i}. Skipping.")
+                print(f"Response was:\n{response}\n--------------------------------")
+                continue
             data = json.loads(json_string)
             data['slide_number'] = i
             extractions.append(data)
