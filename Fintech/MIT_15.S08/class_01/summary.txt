@@ -1,0 +1,29 @@
+The lectures cover various aspects of a FinTech course, emphasizing the historical and contemporary role of technology in finance. Key topics include:
+
+1. **Historical Context**: Finance and technology have coexisted since the beginning, with early technologies like money and ledgers. Technologies such as the telephone and telegraph have significantly impacted the financial sector.
+
+2. **Current Innovations**: Modern FinTech innovations, including AI, deep learning, blockchain, and OpenAPI, are covered. OpenAPI may no longer be a primary focus in 10 to 20 years.
+
+3. **Competitive Landscape**: The course examines the competitive landscape in the FinTech industry, covering business strategies employed by both startups and big tech companies.
+
+4. **Learning Resources**: Readings from the Bank for International Settlements Working Paper and the Financial Stability Board report from 2017 are recommended to develop critical reasoning skills and distinguish hype from reality.
+
+5. **Regulatory Insights**: Insights from the current chair of the Federal Deposit Insurance Corporation (FDIC), Chair McWilliams, are discussed, focusing on global financial trends influenced by technology, such as open banking and API usage.
+
+6. **Data and Marketing**: The importance of opening bank ledgers and data in marketing is highlighted, with natural language processing (NLP) being introduced as a key technology. The rapid adoption of mobile payments in China, particularly through platforms like Alipay and WeChat Pay, is compared to slower adoption in other regions.
+
+7. **Global Payment Systems**: The state of payment systems in different countries is examined, noting that while the U.S. has a highly competitive and consolidated market, countries like China and Kenya have more advanced systems due to their late entry into technological development. Examples include Alibaba and Tencent's dominance in China and M-Pesa's success in Kenya.
+
+The lectures also cover the broader scope of FinTech, including:
+- **Digital Transformation and Financial Technologies**: Acceleration of digital transformation and financial technologies driven by the coronavirus crisis, with a focus on digital payments and data sharing.
+- **Customer Interfaces**: Evolution of customer interfaces from prehistoric times to modern financial technologies, emphasizing the role of AI and machine learning.
+- **Innovation and Disruption**: Importance of innovation and disruption in the financial industry, advocating for the use of advanced technologies such as Open APIs, robotic process automation, and chatbots to create superior customer experiences.
+- **Risk Management**: Historical examples like asset-backed securitization and credit default swaps, and the role of machine learning in risk management.
+- **Machine Learning in Finance**: Advanced statistical methods and machine learning in finance, particularly by companies like BlackRock and the use of AI and virtual assistants in financial services.
+
+Additionally, the lectures explore:
+- **Data Collection and Privacy**: Comparative analysis of data collection, evolution of credit reporting services, and the importance of regular financial updates.
+- **Regulatory Frameworks**: Regulatory challenges and frameworks for startups and new technologies, including the need for fairness, explainability, and robustness in AI systems.
+- **Professionalism and Academic Integrity**: Emphasis on professionalism, active participation, and academic integrity, with office hours and support available for students.
+
+Finally, the lectures conclude with a focus on group work, using the Canvas platform for group formation and alternative arrangements if needed, along with office hours and lunches for additional support.

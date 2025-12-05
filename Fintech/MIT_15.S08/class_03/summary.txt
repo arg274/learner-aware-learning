@@ -1,0 +1,35 @@
+The lecture series on financial technology (FinTech) and its stack covers a wide range of topics, from the importance of understanding the FinTech stack, AI, and machine learning, to the regulatory challenges and ethical considerations in AI and machine learning applications in finance.
+
+1. **Introduction and Overview**:
+   - Professor Gary Gensler introduces the series, emphasizing the importance of AI and machine learning in FinTech.
+   - Discussions include regulatory aspects, perspectives from official sectors, and the integration of AI into broader FinTech trends like savings and cost reduction.
+
+2. **Impact of Fintech Startups and Disruptors**:
+   - Fintech startups and disruptors are discussed, particularly their use of machine learning to exploit weaknesses in traditional business models.
+   - Public policy issues, including biases in machine learning algorithms, are highlighted.
+   - The role of big tech firms as data generators and the importance of transparency and accountability in AI decisions are emphasized.
+
+3. **Regulatory Challenges and Ethical Considerations**:
+   - Regulatory challenges, such as the bias in financial data and the need for explainability and fairness, are addressed.
+   - The importance of data collection, processing, and integration into financial systems is discussed.
+   - Examples of companies like Plaid, Credit Karma, and Visa are cited for their data commercialization efforts.
+
+4. **Innovation and Integration of Technologies**:
+   - The role of AI, natural language processing, and cloud computing in financial operations is explored.
+   - The integration of advanced technologies like machine learning and open APIs into financial systems is highlighted.
+   - Companies like AlphaSense, Tractable, and Zest AI are mentioned for their applications in fraud detection, claims processing, and credit underwriting.
+
+5. **Credit Card Algorithms and Regulatory Issues**:
+   - Issues with credit card algorithms, such as the Apple Credit Card algorithm bias, are discussed.
+   - Regulatory concerns in cash flow lending and merchant cash advances are examined.
+   - The importance of explainability, fairness, and compliance with laws like the Fair Credit Reporting Act and the Fair Housing Act is emphasized.
+
+6. **Global Regulatory Environment**:
+   - The global regulatory landscape, particularly the impact of the General Data Protection Regulation (GDPR), is discussed.
+   - The interconnected nature of global standards and the influence of one country's regulations on others is highlighted.
+
+7. **Conceptual Framework for Fairness**:
+   - A conceptual framework for understanding disparate treatment and disparate impact is presented.
+   - The importance of fairness and explainability in algorithms is discussed.
+
+Overall, the lectures underscore the critical role of data, advanced technologies, and regulatory compliance in the evolving financial technology landscape, emphasizing the need for continuous innovation and adaptation to stay competitive.

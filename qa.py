@@ -19,6 +19,7 @@ def get_context(class_path: Path, time: float, scope: str):
     subtitle_path = glob(str(class_path / "*.vtt"))[0]
     subtitles = webvtt.read(subtitle_path)
     
+    # Get local scope (current slide transcription and last minute of subtitles)
     if scope in ['local', 'both']:
         # Get current slide based on time
         current_slide_number = None
@@ -37,6 +38,8 @@ def get_context(class_path: Path, time: float, scope: str):
                 if slide["slide_number"] == current_slide_number:
                     current_slide = slide
                     break
+        current_slide["slide_title"] = current_slide.pop("title")
+        current_slide["slide_text"] = current_slide.pop("text")
                 
         # Get last minute of subtitles
         current_slide["captions"] = []
@@ -45,6 +48,15 @@ def get_context(class_path: Path, time: float, scope: str):
             
         # Add to context
         context["local"] = current_slide
+        
+    # Get global scope (entire slide transcriptions)
+    if scope in ['global', 'both']:
+        with open(class_path / "summary.txt", 'r') as f:
+            summary = f.read()
+            
+        context["global"] = {
+            "video_summary": summary
+        }
         
     return json.dumps(context, ensure_ascii=False, indent=4)
         

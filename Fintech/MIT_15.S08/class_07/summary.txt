@@ -1,0 +1,25 @@
+The lecture series covers the intersection of FinTech and credit, highlighting the impact of financial technology on various sectors and credit markets. Key themes include:
+
+1. **Credit Sectors and Market-Driven Credit Design**: The lecture discusses different credit sectors and market-driven approaches to credit design, emphasizing technological disruptions and the role of alternative data.
+
+2. **Technological Disruptions**: New technologies like AI and alternative data are disrupting traditional credit value chains, with concepts like Taq as potential disruptors. Big tech companies such as Apple, Amazon, and Alibaba are entering the lending business, leveraging extensive data and user networks.
+
+3. **Competitive Landscape**: The lecture reviews the competitive landscape of FinTech marketplaces, using examples like Lending Club, and discusses the involvement of big tech companies in providing financial services.
+
+4. **Marketplace Lending**: Marketplace lending is explored, with Lending Club serving as a case study, and the role of alternative data in improving credit scoring methods is discussed.
+
+5. **Impact on Small Businesses and SMEs**: The coronavirus crisis is examined, highlighting its impact on small businesses, opportunities in the SME market, and the development of stablecoins and digital currencies like Libra.
+
+6. **Regulatory Issues and Challenges**: The lecture addresses regulatory challenges such as attributing credit, physical locations, and unregistered entities, emphasizing the need for adaptation by global regulatory bodies.
+
+7. **Financial Innovations and Opportunities**: Financial innovations in payments and credit segments are discussed, with examples of companies like Brex and AvidXchange, and the importance of targeting specific parts of the value chain is highlighted.
+
+8. **Mergers, Consolidations, and Market Trends**: The lecture covers trends in mergers and consolidations, the growth of credit cards and personal loans in China, and the impact of digital payment methods like Alipay and WeChat Pay.
+
+9. **Peer-to-Peer Lending Platforms**: Peer-to-peer lending platforms are discussed, with examples like Lending Club and Mintos, and the role of loan originators and managed accounts from firms like BlackRock and Fidelity.
+
+10. **Credit Card and Mortgage Markets**: The U.S. credit card and mortgage markets are analyzed, with a focus on non-bank originators, securitization processes, and the role of fintech companies.
+
+11. **Academic Integrity and Professionalism**: The lecture concludes with advice on academic integrity and professionalism, encouraging students to engage with course materials and seek faculty support.
+
+Throughout the lectures, the broader trends in FinTech, the role of tech companies in providing financial services, and the strategic positioning of these companies in the credit market are discussed. Students are encouraged to think critically about the implications of these changes.
