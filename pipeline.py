@@ -6,13 +6,7 @@ import shutil
 from glob import glob
 import json
 import webvtt
-
-def format_time(seconds):
-    hours = int(seconds // 3600)
-    minutes = int((seconds % 3600) // 60)
-    secs = int(seconds % 60)
-    millis = int((seconds * 1000) % 1000)
-    return f"{hours:02}:{minutes:02}:{secs:02}.{millis:03}"
+from utils.time import format_time
 
 # Testing command:
 # python3 pipeline.py --input-pdf Fintech/MIT15-S08S20_class1.pdf --input-video https://www.youtube.com/watch?v=90JWoR9MfYU
