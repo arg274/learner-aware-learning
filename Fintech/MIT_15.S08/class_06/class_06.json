@@ -1,0 +1,495 @@
+[
+    {
+        "title": "Class 6: Overview",
+        "text": [
+            "Payment Systems",
+            "Payment Trends",
+            "Payment System 'Pain Points'",
+            "Real Time Gross Settlements",
+            "Payment Companies Landscape",
+            "Stable Coins, Crypto Projects & Tokenization",
+            "Facebook Libra & China DCEP"
+        ],
+        "slide_number": 1
+    },
+    {
+        "title": "Class 6: Readings",
+        "text": [
+            "'The Digitalization of Payments and Currency: Some Issues for Consideration' Lael Brainard, Federal Reserve Board",
+            "'The Payment Systems Space' MIT Cryptocurrency Online Course",
+            "'7 Key Payments Innovations in Fintech for 2020' Codete",
+            "'9 Payment Trends That Will Shape 2020' Estelle Mense, BlueSnap"
+        ],
+        "slide_number": 2
+    },
+    {
+        "title": "Class 6: Study Questions",
+        "text": [
+            "What are the challenges and opportunities in the current payment system architecture?",
+            "What lessons can be drawn from Big Tech payment innovations such as Alipay, WeChat Pay, M-Pesa, Paytm, Kakao Pay, Amazon Pay, Apple Pay, & Google Wallet? What lessons from fintech disrupters such as Plaid, Square, Stripe, Toast, TransferWise, Venmo, etc.? What are incumbents such as the major banks as well as Visa, Mastercard and PayPal responding to the changing landscape?"
+        ],
+        "slide_number": 3
+    },
+    {
+        "title": "Payment Systems",
+        "text": [
+            "A Method to Amend and Record Entries on Ledgers for Money",
+            "Authorizing, Clearing and Recording Final Settlement"
+        ],
+        "slide_number": 4
+    },
+    {
+        "title": "Payment Systems",
+        "text": [
+            "Central Bank (Bank of England, European Central Bank, Federal Reserve, ...)",
+            "Central Bank Accounts",
+            "RTGS (CHAPS, Target 2, Fedwire, ...)",
+            "Commercial Bank #1 (Barclays, Deutsche Bank, Citi, ...)",
+            "Commercial Bank Accounts Retail Bank Accounts",
+            "Defered Net Settlement (BACS/FP, EURO1, ACH, Cheque Visa, PayPal, ...)",
+            "Correspondent Banking Arrangements",
+            "Commercial Bank #2 (HSBC, SocGen, JPMC, ...)",
+            "Commercial Bank Accounts Retail Bank Accounts",
+            "Alice",
+            "Bob",
+            "Charlie",
+            "Source: 'A Central Bank “Cryptocurrency”? An interesting Idea, but maybe not for the reason we think', Richard Gendal Brown, (3/5/15)"
+        ],
+        "slide_number": 5
+    },
+    {
+        "title": "Modern Payment Systems",
+        "text": [
+            "Digital wallets:",
+            "Allpay Amazon Pay Android Pay Apple Pay",
+            "GoPay Kakao Pay M-Pesa PayPal",
+            "Paytm Samsung Pay Venmo WeChat Pay",
+            "Issuing Bank",
+            "Payment Instrument",
+            "Checks Credit Card Debit Card Prepaid Card Payment Instruction Others",
+            "Networks & PSPs",
+            "Visa/Mastercard/ Union Pay/etc.",
+            "First Data/Stripe/etc.",
+            "ACH",
+            "Other",
+            "Merchant Bank",
+            "Acquirer",
+            "Access method",
+            "Phone",
+            "POS",
+            "Web | e-commerce Gateway",
+            "Consumer 1",
+            "Consumer 2",
+            "Merchant",
+            "Cryptocurrency (Bitcoin)"
+        ],
+        "slide_number": 6
+    },
+    {
+        "title": "North America Payment Trends",
+        "text": [
+            "North America eCom payment methods",
+            "2019",
+            "2023*",
+            "Credit Card",
+            "34.4%",
+            "26.8%",
+            "Digital/Mobile Wallet",
+            "23.7%",
+            "36.6%",
+            "Debit Card",
+            "17.6%",
+            "15.2%",
+            "Charge & Deferred Debit Card",
+            "10.5%",
+            "9.1%",
+            "Bank Transfer",
+            "5.9%",
+            "6.3%",
+            "Cash on Delivery",
+            "3.2%",
+            "1.7%",
+            "PostPay",
+            "1.0%",
+            "0.2%",
+            "Other",
+            "1.0%",
+            "0.3%",
+            "Buy Now Pay Later",
+            "0.9%",
+            "3.0%",
+            "Pre-Paid Card",
+            "0.9%",
+            "0.3%",
+            "PrePay",
+            "0.9%",
+            "0.4%",
+            "North America POS payment methods",
+            "2019",
+            "2023*",
+            "Credit Card",
+            "40.1%",
+            "41.6%",
+            "Debit Card",
+            "33.5%",
+            "31.5%",
+            "Cash",
+            "14.6%",
+            "10.8%",
+            "Digital/Mobile Wallet",
+            "6.0%",
+            "10.1%",
+            "Charge Card",
+            "3.9%",
+            "4.0%",
+            "Pre-Paid Card",
+            "1.9%",
+            "2.0%",
+            "*Forecasted",
+            "Source: 'Global Payments Report 2020', Worldpay (2/27/20)"
+        ],
+        "slide_number": 7
+    },
+    {
+        "title": "Global Payment Trends",
+        "text": [
+            "Global eCom payment methods",
+            "2019",
+            "2023*",
+            "Digital/Mobile Wallet 41.8%",
+            "Credit Card 24.2%",
+            "Debit Card 10.6%",
+            "Bank Transfer 9.0%",
+            "Charge & Deferred Debit Card 5.0%",
+            "Cash on Delivery 4.5%",
+            "Buy Now Pay Later 1.6%",
+            "PostPay 1.3%",
+            "Pre-Paid Card 1.0%",
+            "PrePay 0.6%",
+            "Other 0.6%",
+            "Global POS payment methods",
+            "2019",
+            "2023*",
+            "Cash 30.2%",
+            "Debit Card 24.3%",
+            "Digital/Mobile Wallet 21.5%",
+            "Credit Card 20.9%",
+            "Charge Card 2.1%",
+            "Pre-Paid Card 1.0%",
+            "*Forecasted",
+            "Source: 'Global Payments Report 2020', Worldpay (2/27/20)"
+        ],
+        "slide_number": 8
+    },
+    {
+        "title": "U.S. Payment Trends",
+        "text": [
+            "80",
+            "Billions",
+            "Checks",
+            "40",
+            "2000 2003 2006 2009 2012 2015 2018",
+            "Non-prepaid debit cards",
+            "Credit cards",
+            "ACH debit transfers",
+            "Prepaid debit cards",
+            "ACH credit transfers",
+            "Trillions of dollars",
+            "40",
+            "20",
+            "0",
+            "2000 2003 2006 2009 2012 2015 2018",
+            "Non-prepaid debit cards",
+            "Prepaid debit cards",
+            "ACH debit transfers",
+            "Checks",
+            "Credit cards",
+            "Source: 'The 2019 Federal Reserve Payments Study', (December 2019)"
+        ],
+        "slide_number": 9
+    },
+    {
+        "title": "U.S. Card Payment Trends",
+        "text": [
+            "U.S. Card Payment Trends",
+            "100",
+            "Billions",
+            "60",
+            "80",
+            "2012 2013 2014 2015 2016 2017 2018",
+            "Remote",
+            "In-person",
+            "3.5 Trillions of dollars",
+            "2.5",
+            "2.0",
+            "1.5",
+            "1.0",
+            "0.5",
+            "0.0",
+            "2012 2013 2014 2015 2016 2017 2018",
+            "Remote",
+            "In-person",
+            "Note: Includes General Purposes Credit & Debit Cards",
+            "Source: 'The 2019 Federal Reserve Payments Study' (December 2019)"
+        ],
+        "slide_number": 10
+    },
+    {
+        "title": "Payment System 'Pain Points'",
+        "text": [
+            "• Chargebacks",
+            "• Complexity",
+            "• Costs",
+            "• Cross Border Payments",
+            "• Data Privacy",
+            "• Delayed Settlement",
+            "• Financial Inclusion",
+            "• Fraud",
+            "• Public Policy Compliance"
+        ],
+        "slide_number": 11
+    },
+    {
+        "title": "Credit Card Transaction Breakdown",
+        "text": [
+            "In Typical $100 Purchase",
+            "$97.25 Goes to the merchant",
+            "$2.20 Issuing bank",
+            "23¢ Payment processor",
+            "19¢ Acquiring bank",
+            "13¢ Card network",
+            "Source: 'Why China’s Payment Apps Give U.S. Bankers Nightmares', Bloomberg (5/23/18)"
+        ],
+        "slide_number": 12
+    },
+    {
+        "title": "Global Payment Trends and North America Payment Worldpay",
+        "text": [
+            "Credit Card Transaction Break © Bloomberg",
+            "Payments Global Revenues chart © McKinsey & Co",
+            "FinTech logos © Various companies",
+            "Alipay vs. WeChat graph © Brookings Institution",
+            "Libra vs. China chart © Tabul8tor"
+        ],
+        "slide_number": 13
+    },
+    {
+        "title": "Real Time Gross Settlements (RTGS)",
+        "text": [
+            "Early Large Value Models: Fed Wire (1970); UK CHAPS (1984); Eurozone TARGET (2002); China CNAPS HVPS",
+            "Operational Hours Limited",
+            "SWIFT (Society for Worldwide Interbank Financial Telecommunications, founded 1973) Facilitates Interbank Payment Messaging",
+            "Real Time Retail 'Instant' Payment Systems (24x7x365)",
+            "Australia NPP (2018); China IBPS (2010); Eurozone TIPS (2018); India NEFT (2019); Japan Zengin (2018); Mexico SPEI (2015); UK FPS (2011)",
+            "Sources: 'Economic impact of real-time payments', Deloitte (July 2019) & for India – Reserve Bank of India Notification (12/6/19)"
+        ],
+        "slide_number": 14
+    },
+    {
+        "title": "FinTech – Payments",
+        "text": [
+            "Big Tech",
+            "支付宝 Alipay 2003",
+            "M-PESA Safaricom 2007",
+            "Amazon Pay 2007",
+            "G Pay 2011",
+            "微信支付 WeChat Pay 2013",
+            "Apple Pay 2014",
+            "kakaopay 2014",
+            "Startup Unicorns",
+            "Avidxchange",
+            "BREX",
+            "Klarna",
+            "Nubank",
+            "one97",
+            "PagSeguro",
+            "Plaid",
+            "Ripple",
+            "Square",
+            "Stone",
+            "Stripe",
+            "Toast",
+            "Toss",
+            "Tradeshift",
+            "TransferWise"
+        ],
+        "slide_number": 15
+    },
+    {
+        "title": "Alipay vs. WeChat: Number of active users (millions)",
+        "text": [
+            "Alipay vs. WeChat: Number of active users (millions)",
+            "1200",
+            "1097",
+            "900",
+            "889",
+            "800",
+            "697",
+            "520",
+            "450",
+            "400",
+            "355",
+            "300",
+            "270",
+            "200",
+            "190",
+            "100",
+            "0",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018",
+            "Source: Statista, China.org.cn, XinhuaNet, Technisia",
+            "B | Economic Studies at BROOKINGS",
+            "Source: 'Is China’s new payment system the future?', Aaron Klein, Brookings (6/16/19)"
+        ],
+        "slide_number": 16
+    },
+    {
+        "title": "Facebook - Payments",
+        "text": [
+            "Facebook Credit (2009):",
+            "Virtual Currency in 15 currencies,",
+            "Terminated 2013",
+            "Facebook Messenger payments (2015):",
+            "P2P & Charitable Payments offered in US, UK, & France",
+            "Terminated P2P in UK & France 2019",
+            "WhatsApp Pay (2018)",
+            "Pilot in India, to be Rolled Out Conditional on Data Standards",
+            "1 Million Accounts Pending further Approvals",
+            "Facebook Pay (2019)",
+            "Consolidated Ap for Facebook, Messenger, Instagram & WhatsApp",
+            "Announced 11/12/19",
+            "Payments in Messenger",
+            "WhatsApp Pay",
+            "f",
+            "1 Million Accounts Pending further Approvals",
+            "Announced 11/12/19"
+        ],
+        "slide_number": 17
+    },
+    {
+        "title": "Payment Companies Landscape",
+        "text": [
+            "Commercial Banks & Bank Owned Payment Networks: 1,000s of Banks (1784 – now), The Clearing House (1853) 24 Large Banks; China UnionPay (2002) 85 founding Banks",
+            "Card Companies: Visa (1958) $373B; Mastercard (1966) $268B; AmEx (1850) $76B; Discover (1985) $12B",
+            "Payment Services Providers: Fidelity National Information Services (2001) $77B; Fiserv (1984) $67B; Global Payments (2000) $45B",
+            "Sources: Public Company Valuations from Bloomberg (4/10/20); Private Company Valuations from Forbes & Crunchbase based on latest funding or announced merger"
+        ],
+        "slide_number": 18
+    },
+    {
+        "title": "Payment Company Recent Mergers",
+        "text": [
+            "'Incumbent' Payment Service Provider 2019 / 2020 Megadeals:",
+            "- Fidelity National Information Services - Worldpay: $34B (+ $9B Debt)",
+            "- Fiserv - First Data: $22B (+ $17B Debt)",
+            "- Global Payments – Total Systems Services: $21.5B",
+            "- Worldline – Ingenico: $8.6B",
+            "Sources: Individual public announcements by Acquiring Companies"
+        ],
+        "slide_number": 19
+    },
+    {
+        "title": "Stablecoins & Messaging App Crypto Projects",
+        "text": [
+            "Retail Stable Value Tokens:",
+            "Tether, USD Coin, Paxos Standard, TrueUSD, DAI, Binance USD",
+            "Wholesale Stable Value Token Projects:*",
+            "Fnality (aka Utility Settlement Coin), JPM Coin (JP Morgan),",
+            "Wells Fargo (Wells Fargo Digital Cash), IBM Blockchain World",
+            "Wire",
+            "Messaging App Token Projects:",
+            "Facebook Libra, Telegram GRAM, LINE (Japan) Link",
+            "* Mizuho Financial Group's J-Coin digital money offering has similarities but does not use token technology"
+        ],
+        "slide_number": 20
+    },
+    {
+        "title": "Payment Cryptocurrency Tokens",
+        "text": [
+            "Bitcoin (2009) - $128B market value",
+            "XRP (2013) - $8.5B - for Ripple’s xRapid cross-border application",
+            "Bitcoin Cash (2017) - $4.4B - hard fork off Bitcoin, 32MB block size",
+            "Bitcoin SV (2018) - $3.5B – hard fork off Bitcoin Cash, 128MB block size",
+            "Litecoin (2013) - $2.8B – Bitcoin fork, 2.5 minute block times, ASIC resistance",
+            "Stellar (2014) - $1B - Stellar Consensus Protocol with ledger chains",
+            "IOTA (2017) - $455M – designed for micropayments on IoT",
+            "Privacy Coins - $2.3B total - Monero (2014), Dash (2014), Zcash (2016), etc.",
+            "Source: Market Values from CoinMarketCap.com (4.12.20)"
+        ],
+        "slide_number": 21
+    },
+    {
+        "title": "Tokenization Goals",
+        "text": [
+            "Broadened Access, Enhanced Liquidity & Efficiency through:",
+            "• Extending Settlement to 24 hours by 7 days per week",
+            "• Real time Instant Settlement with Finality of Transfer",
+            "• Borderless Permissionless Censorship Resistant Exchange",
+            "• Peer to Peer and possible related Disintermediation",
+            "• Broader Investor Base",
+            "• Smart Contracts and Automation",
+            "• Fractionalization",
+            "For:",
+            "• Payments",
+            "• Payments vs. Payments (PvP)",
+            "• Payment +/or Security side of Delivery vs. Payment (DvP)",
+            "• Atomic Swaps of Value"
+        ],
+        "slide_number": 22
+    },
+    {
+        "title": "Facebook Libra Design Decisions",
+        "text": [
+            "Promote Libra as Global Digital Currency & Payment Solution",
+            "\"The goal of the Libra Blockchain is to serve as a solid foundation for financial services, including a new global currency, which could meet the daily financial needs of billions of people.\"",
+            "Create Multicurrency Libra Reserve to back Libra",
+            "Government Securities & Bank Deposits - US, Euro, UK, & Japan",
+            "Pay No interest on Libra",
+            "Use ETF mechanisms for Libra Issuance and Redemptions",
+            "Issue Libra Investment Token (LIT) earning Interest on Libra Reserve & to Promote Customer Adoption"
+        ],
+        "slide_number": 23
+    },
+    {
+        "title": "Facebook Libra Design Decisions",
+        "text": [
+            "Use Libra Blockchain for a permissioned distributed ledger",
+            "Develop Move language so apps can run on top of network",
+            "Set up Libra Association as Swiss non-profit to Manage Libra Reserve and Libra Network",
+            "Recruit 100 Large Organizations as Libra Association members",
+            "Set up subsidiary Calibra offering services & custody tokens",
+            "Offer digital custodial Calibra Wallet for Libra tokens"
+        ],
+        "slide_number": 24
+    },
+    {
+        "title": "Libra vs. China DCEP",
+        "text": [
+            "Libra vs. China DCEP",
+            "libra",
+            "中国人民银行",
+            "THE PEOPLE'S BANK OF CHINA",
+            "Name of currency",
+            "Libra",
+            "Digital Currency Electronic Payment (DCEP)",
+            "Issuer",
+            "Libra Association led by Facebook",
+            "People's Bank of China (PBoC)",
+            "Blockchain Type",
+            "Permissioned blockchain (accessible to association members only)",
+            "Centralized private network controlled by PBoC",
+            "Peg",
+            "Basket of currencies including USD, EUR, JPY, GBP and SGD",
+            "Renminbi (RMB)",
+            "Status",
+            "Release Date TBC",
+            "Release Date TBC",
+            "Source: 'The Digital Currency Race', Tabul8tor (12/4/19)"
+        ],
+        "slide_number": 25
+    }
+]

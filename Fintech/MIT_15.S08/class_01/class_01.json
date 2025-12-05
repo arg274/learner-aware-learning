@@ -1,0 +1,528 @@
+[
+    {
+        "title": "FinTech: Shaping the Financial World",
+        "text": [
+            "15.S08, Spring 2020",
+            "Class 1:",
+            "Intro and Key Technological Trends",
+            "Affecting Financial Services",
+            "Prof. Gary Gensler"
+        ],
+        "slide_number": 1
+    },
+    {
+        "title": "FinTech 15.S08",
+        "text": [
+            "For those wishing to explore FinTech:",
+            "How new technologies are disrupting the financial services industry",
+            "Business models, products, applications and customer user interface",
+            "AI, Deep learning, Blockchain Technology and Open API’s",
+            "Competitive Landscape of FinTech Startups & Big Tech vs. Big Finance"
+        ],
+        "slide_number": 2
+    },
+    {
+        "title": "Intro Class: Readings",
+        "text": [
+            "'The economic forces driving fintech adoption across countries' Jon Frost, BIS Working Papers",
+            "'FinTech and market structure in financial services' Financial Stability Board",
+            "'The Future of Banking' FDIC Chair Jelena McWilliams"
+        ],
+        "slide_number": 3
+    },
+    {
+        "title": "Intro Class: Study Questions",
+        "text": [
+            "What are the major technological trends materially influencing the provision of financial services?",
+            "How is the competitive landscape shaping adoption of these new technologies around the globe? How are FinTech start-ups and Big Tech firms competing and cooperating with incumbents from big finance? How has Big Finance reacted?",
+            "What do you wish to achieve in this Fintech course?"
+        ],
+        "slide_number": 4
+    },
+    {
+        "title": "Intro Class: Overview",
+        "text": [
+            "Financial World",
+            "FinTech",
+            "AI, Open Banking & Blockchain Technology",
+            "The Actors",
+            "Teaching Team, Schedule, Assignments & Office Hours"
+        ],
+        "slide_number": 5
+    },
+    {
+        "title": "Financial World",
+        "text": [
+            "Intermediates Money and Risk",
+            "",
+            "• Functions",
+            "• Credit",
+            "• Investments",
+            "• Risk Transformation",
+            "• Capital Markets &",
+            "Price Discovery",
+            "• Advice",
+            "",
+            "• Sectors",
+            "• Commercial Banks & Credit Unions",
+            "• Asset Managers & Investment Vehicles",
+            "• Insurance Companies & Underwriters",
+            "• Investment Banks & Brokerage Firms",
+            "• Exchanges & Clearinghouses",
+            "• Financial Advisors"
+        ],
+        "slide_number": 6
+    },
+    {
+        "title": "Financial World",
+        "text": [
+            "Intermediates Money and Risk",
+            "Data",
+            "- Investing, Market Making, Marketing, Risk Management & Underwriting",
+            "Funding & Risk Management",
+            "- Balance Sheet & Capital",
+            "- Marketplace & Securitizations",
+            "- Derivatives, Guarantees & Reinsurance",
+            "Risks",
+            "- Credit; Funding; Liquidity; Market (Basis, Price, Rate, Spread, Volatility)",
+            "- Model; Operational; Reputational / Compliance",
+            "- Accidents; Health; Life Events; Natural Disasters; Weather",
+            "User Experience & User Interface"
+        ],
+        "slide_number": 7
+    },
+    {
+        "title": "FinTech",
+        "text": [
+            "'Technology-enabled innovation in financial services associated with new business models, applications, processes or products, all of which have a material effect ...'",
+            "Financial Stability Board"
+        ],
+        "slide_number": 8
+    },
+    {
+        "title": "FinTech – Technologies of our Times",
+        "text": [
+            "AI & ML",
+            "Blockchain",
+            "Natural Language Possessing",
+            "Open API",
+            "Biometrics",
+            "Chatbots",
+            "Cloud",
+            "Robotic Process Automation"
+        ],
+        "slide_number": 9
+    },
+    {
+        "title": "",
+        "text": [],
+        "slide_number": 10
+    },
+    {
+        "title": "Funding & Risk Management",
+        "text": [
+            "ML Based Underwriting (2010s) >",
+            "Peer to Peer Lending (2005) >",
+            "Credit Default Swaps (1990s) >",
+            "Asset Backed Securitizations (1970s – 90s) >",
+            "Interest Rate Futures (1970s) & Interest Rate Swaps (1980s) >",
+            "Consumer Credit Scoring (1960s) & FICO Scores (1990s) >",
+            "Consumer Finance Companies & Warehouse Lines of Credit (1920s) >",
+            "Private (1880s, 1950s), Government (1930s) & GSEs (1930s) Mortgage Insurance >",
+            "Bankruptcy & Secured Lending Laws, Loan Servicing & Collection Agents (Days of old) >",
+            "Bank Deposits - (Antiquity) >"
+        ],
+        "slide_number": 11
+    },
+    {
+        "title": "FinTech - Finance's Fertile Ground",
+        "text": [
+            "Digitalization of Money, Securities and Credit",
+            "Vast and Expanding Amounts of Customer Data",
+            "Rapid Expansion of Computational & Analytical Power",
+            "Reliance on Multiple Systems of Ledgers",
+            "Wide Public Acceptance of New Tech",
+            "Legacy Customer Interface and Processing Systems",
+            "Infrastructure Systems' Costs and Counterparty Risks",
+            "Economic Rents and Centralized Concentrated Risks"
+        ],
+        "slide_number": 12
+    },
+    {
+        "title": "FinTech – Disruptive Potential",
+        "text": [
+            "AI for Managing Risks & Targeting Products",
+            "Updated Customer User Interface and Robo Advice",
+            "Greater Financial Inclusion & Tailored Services",
+            "'Internet of Value': Movement of Value & Micro Payments",
+            "Streamlined Accounting, Clearing, Compliance & Processing Systems",
+            "Some Revenue Models shift to Data in exchange for Free Services",
+            "Efficiencies & Tighter Margins in Financial Sector"
+        ],
+        "slide_number": 13
+    },
+    {
+        "title": "AI and Machine Learning\nDeep Learning in One Slide",
+        "text": [
+            "What is it:",
+            "Extract useful patterns from data.",
+            "How:",
+            "Neural network + optimization",
+            "How (Practical):",
+            "Python + TensorFlow & friends",
+            "Hard Part:",
+            "Good Questions + Good Data",
+            "Why now:",
+            "Data, hardware, community, tools, investment",
+            "Where do we stand?",
+            "Most big questions of intelligence have not been answered nor properly formulated",
+            "Exciting progress:",
+            "Face recognition",
+            "Image classification",
+            "Speech recognition",
+            "Text-to-speech generation",
+            "Handwriting transcription",
+            "Machine translation",
+            "Medical diagnosis",
+            "Cars: drivable area, lane keeping",
+            "Digital assistants",
+            "Ads, search, social recommendations",
+            "Game playing with deep RL",
+            "Source: 'Deep Learning Basics' Lex Fridman",
+            "https://deeplearning.mit.edu 2019"
+        ],
+        "slide_number": 14
+    },
+    {
+        "title": "AI and Machine Learning - Finance",
+        "text": [
+            "Asset Management",
+            "Call Centers, Chatbots, Robo-Advising & Virtual Assistants",
+            "Credit (& Insurance) Allocation, Extension, Pricing & Scoring",
+            "Fraud Detection & Prevention",
+            "Regulatory – Anti Money Laundering, Anti Manipulation",
+            "Risk Management & Underwriting",
+            "Robotic Process Automation",
+            "Trading",
+            "Deep Learning",
+            "Representation Learning",
+            "Machine Learning",
+            "Artificial Intelligence"
+        ],
+        "slide_number": 15
+    },
+    {
+        "title": "Open API & Open Banking",
+        "text": [
+            "Open Application Program Interfaces (Open API) allow outside Developers access to and an ability to Integrate Permissioned Customer Data into Third Party Applications",
+            "Open Banking initiatives facilitate or mandate Open API for Non-banks to Share Permissioned Bank Customer Data",
+            "Policy Trade-offs of Promoting Competition & Innovation, Limiting Cybersecurity Risks, and Maintaining Privacy & Consumer Protections",
+            "EU Payment System Directive (PSD2), UK Open Banking Initiative, etc.",
+            "Plus Screen Scraping, Reverse Engineering & Robotic Process Automation"
+        ],
+        "slide_number": 16
+    },
+    {
+        "title": "Blockchain Tech Potential Uses",
+        "text": [
+            "Speculative Investing",
+            "Crowdfunding through Initial Coin Offerings",
+            "Tokens for Exchanges, Gaming, Gambling, DeFi & File Sharing",
+            "Tokenized Fiat (Stable Value Coins), Securities & Assets",
+            "Payment Systems",
+            "Trade Finance & Supply Chain Management",
+            "Clearing, Settlement & Processing",
+            "Central Bank Digital Currencies & Payment Initiatives",
+            "Digital ID & MIT Diploma",
+            "Medical Records, Property Records, Internet of Things, Voting ...",
+            "G"
+        ],
+        "slide_number": 17
+    },
+    {
+        "title": "FinTech – The Actors",
+        "text": [
+            "Big Finance: Like Fortresses w/ Moats, Towers & Sovereign Affiliations",
+            "Towers: 1) Payments, 2) Balance Sheets, 3) Data, 4) Corporate Structure"
+        ],
+        "slide_number": 18
+    },
+    {
+        "title": "Big Finance",
+        "text": [
+            "Bank of America",
+            "BlackRock",
+            "BNP PARIBAS",
+            "CHASE",
+            "China Construction Bank",
+            "CIBC",
+            "citi",
+            "Fidelity Investments",
+            "Goldman Sachs",
+            "HSBC",
+            "ICBC",
+            "ice NYSE",
+            "MUFG",
+            "Nasdaq",
+            "STATE STREET",
+            "Vanguard"
+        ],
+        "slide_number": 19
+    },
+    {
+        "title": "FinTech – Payments & Credit",
+        "text": [
+            "Big Tech",
+            "支付宝 ALIPAY",
+            "M-PESA Safari.com",
+            "amazon pay",
+            "Google Wallet",
+            "微信支付 WeChat Pay",
+            "Apple Pay",
+            "kakaopay",
+            "Payment Unicorns",
+            "avidxchange",
+            "BREX",
+            "klarna",
+            "ny bank",
+            "one97",
+            "PagSeguro",
+            "PLAID",
+            "ripple",
+            "Square",
+            "stone",
+            "stripe",
+            "toast",
+            "Toss",
+            "TRADESHIFT",
+            "TransferWise",
+            "Credit Unicorns",
+            "affirm",
+            "Atom bank",
+            "AVANT",
+            "chime",
+            "credit karma",
+            "Dave.com",
+            "Kabbage",
+            "monzo",
+            "N26",
+            "OakNorth",
+            "PROSPER",
+            "Revolut",
+            "SoFi",
+            "元 团贷网"
+        ],
+        "slide_number": 20
+    },
+    {
+        "title": "FinTech – Other Startup ‘Unicorns’",
+        "text": [
+            "Insurance and Benefits",
+            "Clover",
+            "@GUSTO",
+            "Hippo",
+            "Lemonade",
+            "OSCAR",
+            "policybazaar",
+            "Zenefits",
+            "Trading and Capital Markets",
+            "BINANCE",
+            "carta",
+            "CIRCLE",
+            "coinbase",
+            "robinhood",
+            "老虎證券",
+            "TIGER BROKERS",
+            "Asset Management and Advisory",
+            "avalooq",
+            "essential for banking",
+            "草根投资",
+            "CG71.COM",
+            "陆金所控股",
+            "LUFAX",
+            "Comprehensive"
+        ],
+        "slide_number": 21
+    },
+    {
+        "title": "GLOBAL INVESTMENT / BY PRODUCT",
+        "text": [
+            "FUNDING INTO CHALLENGER BANKS MORE THAN TRIPLED IN 2019, HELPING LIFT CURRENT ACCOUNTS TOTALS; INSURTECH INVESTMENTS JUMPED 54%, WHILE FUNDING TO LENDING AND PAYMENTS STARTUPS BOTH GREW MORE THAN 20%",
+            "NUMBER OF DEALS",
+            "818",
+            "951",
+            "1,207",
+            "1,838",
+            "2,742",
+            "3,251",
+            "3,472",
+            "5%",
+            "6%",
+            "8%",
+            "8%",
+            "8%",
+            "7%",
+            "6%",
+            "9%",
+            "10%",
+            "9%",
+            "9%",
+            "6%",
+            "6%",
+            "11%",
+            "9%",
+            "10%",
+            "12%",
+            "15%",
+            "16%",
+            "17%",
+            "18%",
+            "17%",
+            "14%",
+            "12%",
+            "14%",
+            "15%",
+            "27%",
+            "23%",
+            "21%",
+            "34%",
+            "30%",
+            "30%",
+            "28%",
+            "27%",
+            "20%",
+            "16%",
+            "11%",
+            "13%",
+            "16%",
+            "21%",
+            "21%",
+            "Other",
+            "Payments",
+            "Insurance",
+            "Lending",
+            "Current accounts",
+            "Markets",
+            "Wealth Mgmt & AM",
+            "Back office operations",
+            "4,844",
+            "13,358",
+            "21,214",
+            "23,373",
+            "26,653",
+            "55,347",
+            "53,304",
+            "4%",
+            "5%",
+            "6%",
+            "6%",
+            "3%",
+            "3%",
+            "3%",
+            "9%",
+            "22%",
+            "45%",
+            "22%",
+            "31%",
+            "30%",
+            "14%",
+            "7%",
+            "2%",
+            "7%",
+            "5%",
+            "28%",
+            "8%",
+            "9%",
+            "23%",
+            "31%",
+            "10%",
+            "12%",
+            "10%",
+            "10%",
+            "3%",
+            "3%",
+            "3%",
+            "3%",
+            "3%",
+            "3%",
+            "13%",
+            "32%",
+            "51%",
+            "20%",
+            "19%",
+            "28%",
+            "11%",
+            "Note: Investments value referred to only deals with amount reported by CB Insights and deals volumes referred to all deals",
+            "Disclaimer: There might be variations in historical numbers in new releases of the FinTech Watchtower as Accenture Research performs historical review of the previous data in every release which include, not limiting to, adding/removing deals from CB Insights database based on relevance",
+            "Source: 'Fintech Fundraising Grew Strongly in Most Major Markets in 2019, Accenture Analysis Finds', Accenture (2/20/20)"
+        ],
+        "slide_number": 22
+    },
+    {
+        "title": "Teaching Team",
+        "text": [
+            "Gary Gensler",
+            "Faculty",
+            "Romain de Saint Perier",
+            "TA",
+            "Lena Ngor",
+            "Administrator"
+        ],
+        "slide_number": 23
+    },
+    {
+        "title": "FinTech: Technologies",
+        "text": [
+            "Class 2 (4/1): Artificial Intelligence, Machine Learning and Deep Learning",
+            "Class 3 (4/6): Artificial Intelligence in Finance",
+            "Class 4 (4/8): Open API’s & Marketing Channels",
+            "Class 5 (4/13): Blockchain Technology & Cryptocurrencies"
+        ],
+        "slide_number": 24
+    },
+    {
+        "title": "FinTech: Sectors",
+        "text": [
+            "Class 6 (4/15): Payments",
+            "Class 7 (4/22): Credit & Lending",
+            "Class 8 (4/27): Challenger Banks",
+            "Class 9 (4/29): Trading & Capital Markets",
+            "Class 10 (5/4): Risk Management & Regulation"
+        ],
+        "slide_number": 25
+    },
+    {
+        "title": "FinTech: Wrapping it All Together",
+        "text": [
+            "Class 1 (3/30): Intro & Key Technological Trends Affecting Financial Services",
+            "Class 11(5/6): Corona Crisis & Finance",
+            "Class 12 (5/11): Conclusion"
+        ],
+        "slide_number": 26
+    },
+    {
+        "title": "Assignments",
+        "text": [
+            "Group Research Paper (3000 – 3600 words due 5/11) 40%",
+            "Recommended business and technology strategy within a particular sector",
+            "To CEO of B of A, Amazon, or Andreessen Horowitz",
+            "Teams required to be Formed and Sector Selected by 4/8",
+            "Individual Business Write-up (900 – 1200 words due 4/24) 30%",
+            "Each student individually addresses 1 of the following:",
+            "a) overall market analysis, b) technology trend analysis, c) traditional competitor analysis, & d) big tech & fintech disrupter competitive analysis",
+            "Class Participation 30%"
+        ],
+        "slide_number": 27
+    },
+    {
+        "title": "Professionalism & Academic Integrity",
+        "text": [
+            "Success goes to those Prepared, Curious & Self Starters",
+            "Respect & Courtesy builds Reputations, Networks & Trust",
+            "Learning comes best to those who Listen as well as Talk",
+            "Understanding Strategy and Paying Attention to Details both Matter",
+            "Staying True to your Values is the best alternative"
+        ],
+        "slide_number": 28
+    }
+]

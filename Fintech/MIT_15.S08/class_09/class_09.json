@@ -1,0 +1,369 @@
+[
+    {
+        "title": "FinTech: Shaping the Financial World",
+        "text": [
+            "FinTech:",
+            "Shaping the Financial World",
+            "April 29, 2020"
+        ],
+        "slide_number": 1
+    },
+    {
+        "title": "Class 9: Overview",
+        "text": [
+            "Online Brokerage",
+            "Robinhood & Zero Commission Trading",
+            "Robo Advisors",
+            "Capital Markets FinTech Startups",
+            "Crypto Exchanges, Lending & Decentralized Finance"
+        ],
+        "slide_number": 2
+    },
+    {
+        "title": "Class 9: Readings",
+        "text": [
+            "'How Robinhood Changed an Industry' John Divine, US News",
+            "'Charles Schwab and the New Broker Wars' Daren Fonda, Bloomberg",
+            "'Robo-Advisors: Product vs. Platform' Henry O'Brien, The Startup"
+        ],
+        "slide_number": 3
+    },
+    {
+        "title": "Class 9: Study Questions",
+        "text": [
+            "How did online brokers emerge during an earlier stage of FinTech development? How were Robinhood and this era’s FinTech startups able to further disrupt the brokerage world?",
+            "How are Robo Advisors transforming the provision of retail asset management services? How has Big Finance - incumbent asset managers and banks - reacted?"
+        ],
+        "slide_number": 4
+    },
+    {
+        "title": "Online Brokerage Company Landscape",
+        "text": [
+            "Retail Brokers: Charles Schwab / TD Ameritrade (1971) – 12M each,",
+            "E*TRADE (1982) – 5.2M, Firstrade (1985), Interactive Brokers (1978) –",
+            "0.8M, LBMZ Zacks Trade (1978), Monex TradeStation (1999 / 1982)",
+            "Asset Managers: Fidelity (1946), Vanguard (1975)"
+        ],
+        "slide_number": 5
+    },
+    {
+        "title": "Online Brokerage Recent Developments",
+        "text": [
+            "Commission Free Brokerage Rates – October 2019:",
+            "• IBKR Lite, Charles Schwab, E*Trade, TD Ameritrade, Ally, Fidelity",
+            "Sources: Individual public announcements by Acquiring Companies"
+        ],
+        "slide_number": 6
+    },
+    {
+        "title": "Commission Rates Long Decline",
+        "text": [
+            "NYSE Trading Volume and Commission Rate",
+            "Share Volume",
+            "Commission Rate",
+            "Million Shares",
+            "0.3",
+            "0.25",
+            "0.2",
+            "0.15",
+            "0.1",
+            "0.05",
+            "0",
+            "19801",
+            "1981",
+            "1982",
+            "1983",
+            "1984",
+            "1985",
+            "1986",
+            "1987",
+            "1988",
+            "1989",
+            "1990",
+            "1991",
+            "1992",
+            "1993",
+            "1994",
+            "1995",
+            "1996",
+            "1997",
+            "1998",
+            "1999",
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "Quarter",
+            "Source: 'Commission Costs, Illiquidity and Stock Returns', August 2006, Jinliang Li, Robert Mooradian, W. David Zhang Deutsche Bank",
+            "Source: 'Back In The Day, Brokers Got Away With Murder In Trading Commissions', Rob Wile, Business Insider (March 31, 2014)"
+        ],
+        "slide_number": 7
+    },
+    {
+        "title": "Zero Commission Revenue Models",
+        "text": [
+            "The cost of financial advice",
+            "Commissions",
+            "Everything else",
+            "Fund expenses",
+            "Kickbacks",
+            "Payment for order flow",
+            "Margin interest",
+            "Interbroker fees",
+            "Transaction fees",
+            "Account closure fees",
+            "Credit spread",
+            "Advisor fees",
+            "Planning software",
+            "Trading software",
+            "Reporting software",
+            "Operational expenses",
+            "What this means for you",
+            "The little it actually helps",
+            "How much more you could be saving",
+            "Source: 'The real story behind commission free trading', Jason Wenk, Altruist (October 16, 2019)"
+        ],
+        "slide_number": 8
+    },
+    {
+        "title": "Robo Advisory Possible Evolution",
+        "text": [
+            "Robo Advisory 1.0",
+            "Robo Advisory 2.0",
+            "Robo Advisory 3.0",
+            "Robo Advisory 4.0",
+            "Online questionnaire",
+            "Product or portfolio proposal",
+            "Listed ETFs, bonds, shares",
+            "Dedicated fund management",
+            "Managed adjustments & rebalancing",
+            "Funds of funds & portfolio view",
+            "Risk-based portfolio allocation",
+            "Algorithm based adjustments & rebalancing proposals",
+            "Pre-defined investment rule-sets",
+            "Fully-automated investments",
+            "Self-learning algorithms",
+            "Automatic asset shifts",
+            "Source: Research Nester",
+            "Source: 'Introduction to Robo Advisor', Research Nester (December 30, 2019)"
+        ],
+        "slide_number": 9
+    },
+    {
+        "title": "Number of users in the robo-advisors segment, in millions",
+        "text": [
+            "Number of users in the robo-advisors segment, in millions",
+            "160",
+            "140",
+            "120",
+            "100",
+            "80",
+            "60",
+            "40",
+            "20",
+            "0",
+            "2017",
+            "2018",
+            "2019",
+            "2020",
+            "2021",
+            "2022",
+            "2023",
+            "Source: 'Robo-advisor Industry to hit $1.4trn This Year' Jastrz Illic, LearnBonds (April 15, 2020)"
+        ],
+        "slide_number": 10
+    },
+    {
+        "title": "Assets under management in the robo-advisors segment, in billion U.S. dollars",
+        "text": [
+            "Assets under management in the robo-advisors segment,",
+            "in billion U.S. dollars",
+            "2.4K",
+            "2K",
+            "1.6K",
+            "1.2K",
+            "0.8K",
+            "0.4K",
+            "0",
+            "2017",
+            "2018",
+            "2019",
+            "2020",
+            "2021",
+            "2022",
+            "2023",
+            "Source: 'Robo-advisor Industry to hit $1.4trn This Year' Jastrz Illic, LearnBonds (April 15, 2020)"
+        ],
+        "slide_number": 11
+    },
+    {
+        "title": "Capital Markets Fintech",
+        "text": [
+            "Access to capital",
+            "Crowdfunding platforms",
+            "Start-up exchange venues",
+            "Bond issuance platforms for start-ups and SMEs",
+            "Private listing platforms for SMEs",
+            "Initial coin offering platforms",
+            "Trade execution",
+            "Decentralized trading marketplaces",
+            "Online auction-based marketplaces",
+            "Cryptocurrency exchanges",
+            "Post-trade services",
+            "Distributed ledger technology-based clearing and settlement",
+            "Surveillance and analytics software",
+            "Automated trade reconstruction",
+            "Regulatory compliance solutions (e.g., AML, KYC, compliance risk)",
+            "Data, analytics, and information services",
+            "Algorithmic and quant trading solutions",
+            "Artificial intelligence-powered financial predictions",
+            "Real-time market data platforms",
+            "Nontraditional data aggregation and analytics platforms",
+            "Operations and technology",
+            "Open source technology for digital assets issuance",
+            "End-to-end trading technology",
+            "End-to-end OTC trade confirmations solutions through full process automation",
+            "Robotics and natural-language processing technologies driving operations efficiency",
+            "Cloud computing",
+            "Source: McKinsey Panorama Fintech database"
+        ],
+        "slide_number": 12
+    },
+    {
+        "title": "Capital Markets FinTech Startups",
+        "text": [
+            "IEX (2012) – Stock Exchange",
+            "Kantox (2011) – Institutional FX Trading",
+            "Pitchbook (2007) – Private Capital Market Research",
+            "Q4 (2006) – Investment Research",
+            "Trumid (2014) – Bond Trading & Data Platform",
+            "TruValue Labs (2013) – Analytics on ESG Investing"
+        ],
+        "slide_number": 13
+    },
+    {
+        "title": "Capital Markets FinTech Startups",
+        "text": [
+            "IEX (2012) – Stock Exchange",
+            "Kantox (2011) – Institutional FX Trading",
+            "Pitchbook (2007) – Private Capital Market Research",
+            "Q4 (2006) – Investment Research",
+            "Trumid (2014) – Bond Trading & Data Platform",
+            "TruValue Labs (2013) – Analytics on ESG Investing"
+        ],
+        "slide_number": 14
+    },
+    {
+        "title": "Crypto Exchanges",
+        "text": [
+            "Act as agents (matching buyers & sellers) -- Traditional exchanges do as well",
+            "Act as market makers (buying & selling from customers) -- Traditional exchanges don’t",
+            "Hold customer funds in Custody -- Traditional exchanges don’t",
+            "Public has direct access -- Traditional exchanges must go through a broker",
+            "Lend money to customers for margin trading -- Securities markets use brokers or banks",
+            "Crypto fees wide vs. Traditional markets",
+            "Crypto Market Largely traded on Crypto only platforms – lacking direct fiat capabilities",
+            "Not regulated for market integrity rules, rife with fake volumes and manipulation",
+            "List tokens for fees similar to equity markets but different than currency markets"
+        ],
+        "slide_number": 15
+    },
+    {
+        "title": "Crypto Exchanges 'Top Tier' Trading Volumes",
+        "text": [
+            "Monthly Volume (Billions USD)",
+            "Jul-2017",
+            "Aug-2017",
+            "Sep-2017",
+            "Oct-2017",
+            "Nov-2017",
+            "Dec-2017",
+            "Jan-2018",
+            "Feb-2018",
+            "Mar-2018",
+            "Apr-2018",
+            "May-2018",
+            "Jun-2018",
+            "Jul-2018",
+            "Aug-2018",
+            "Sep-2018",
+            "Oct-2018",
+            "Nov-2018",
+            "Dec-2018",
+            "Jan-2019",
+            "Feb-2019",
+            "Mar-2019",
+            "Apr-2019",
+            "May-2019",
+            "Jun-2019",
+            "Jul-2019",
+            "Aug-2019",
+            "Sep-2019",
+            "Oct-2019",
+            "Nov-2019",
+            "Dec-2019",
+            "Jan-2020",
+            "Feb-2020",
+            "Mar-2020",
+            "Source: 'Exchange Review March 2020', CryptoCompare (4/20)"
+        ],
+        "slide_number": 16
+    },
+    {
+        "title": "Crypto Lending and Borrow",
+        "text": [
+            "Lending Crypto or Fiat collateralized by Crypto",
+            "BlockFi, Celsius, CoinLoan, Crypto.com, ETHLend, Genesis Capital, Nexo, Salt"
+        ],
+        "slide_number": 17
+    },
+    {
+        "title": "Traditional Finance vs. Decentralized Finance",
+        "text": [
+            "Proprietary software",
+            "Central clearing",
+            "Intermediaries",
+            "Trust in institutions",
+            "Censoreable",
+            "Permissioned",
+            "\"Separate castles\"",
+            "Limited transparency",
+            "Registered instruments",
+            "Credit-based assets",
+            "Open source",
+            "Blockchain",
+            "Peer-to-peer / web",
+            "Trust in technology",
+            "Censorship resistant",
+            "Permissionless",
+            "Composable, modular",
+            "Transparent",
+            "Bearer instruments",
+            "Commodity-based assets"
+        ],
+        "slide_number": 18
+    },
+    {
+        "title": "Crypto 'DeFi' Platforms",
+        "text": [
+            "Exchanges",
+            "Binance, IDEX, Uniswap",
+            "Crypto Lending & Borrow",
+            "Compound, Dharma, InstaDapp, Maker, Nuo, REX, Synthetix",
+            "Prediction Markets",
+            "Augur, Hedge Trade"
+        ],
+        "slide_number": 19
+    }
+]

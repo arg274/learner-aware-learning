@@ -15,10 +15,11 @@ class VLM():
         self.prompt = """You are given an image of a slide in a slideshow. Do the following:
 1. Identify the main heading or title of the slide and put it in a "title" field.  
 2. Transcribe all other visible text and annotations exactly as they appear.  
-   - Each distinct line of text should be a separate string in the "text" array.  
+   - Each distinct line of text should be a separate string in the "text" array. 
+   - Ensure all strings start and end with double quotes. 
    - Include labels on diagrams or arrows as separate lines.  
    - Ignore decorative elements with no text.  
-3. Do not summarize or paraphrase — copy the text faithfully.  
+3. Do not summarize or paraphrase — copy the text faithfully.
 
 Return the result as a properly-formatted JSON object, using this format:
 
@@ -58,7 +59,7 @@ Return the result as a properly-formatted JSON object, using this format:
             inputs = inputs.to("cuda")
             
             # Inference
-            generated_ids = self.model.generate(**inputs, max_new_tokens=512)
+            generated_ids = self.model.generate(**inputs, max_new_tokens=1024)
             generated_ids_trimmed = [
                 out_ids[len(in_ids) :] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
             ]
@@ -75,7 +76,12 @@ Return the result as a properly-formatted JSON object, using this format:
                 print(f"Warning: No JSON found in response for slide {i}. Skipping.")
                 print(f"Response was:\n{response}\n--------------------------------")
                 continue
-            data = json.loads(json_string)
+            try:
+                data = json.loads(json_string)
+            except json.JSONDecodeError:
+                print(f"Warning: JSON decoding failed for slide {i}. Skipping.")
+                print(f"Extracted JSON string was:\n{json_string}\n--------------------------------")
+                continue
             data['slide_number'] = i
             extractions.append(data)
             
