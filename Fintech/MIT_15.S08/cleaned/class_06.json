@@ -1,0 +1,295 @@
+{
+  "metadata": {
+    "video_path": "data/MIT_15.S08/cropped_videos/06_4FGNLl9Btfw.mp4",
+    "pdf_path": "data/MIT_15.S08/pdf/94d9a16a723af8341e92ad1eb76836a6_MIT15-S08S20_class6.pdf",
+    "duration": 4575.203966666667,
+    "sampling_fps": 1.0,
+    "phash_high_threshold": 0.7,
+    "phash_gap_threshold": 0.05,
+    "ocr_batch_size": 16,
+    "ocr_similarity_threshold": 0.7,
+    "total_slides_in_pdf": 27,
+    "method": "hybrid (pHash + DeepSeek OCR)"
+  },
+  "statistics": {
+    "total_samples": 4729,
+    "phash_matches": 4569,
+    "ocr_matches": 90,
+    "no_matches": 70
+  },
+  "segments": [
+    {
+      "slide_number": null,
+      "start_time": 0.0,
+      "end_time": 11.611600000000001,
+      "duration": 11.611600000000001,
+      "match_method": "no_match"
+    },
+    {
+      "slide_number": 2,
+      "start_time": 11.611600000000001,
+      "end_time": 108.37493333333333,
+      "duration": 96.76333333333334,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 3,
+      "start_time": 108.37493333333333,
+      "end_time": 198.36483333333334,
+      "duration": 89.9899,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": null,
+      "start_time": 198.36483333333334,
+      "end_time": 199.33246666666668,
+      "duration": 0.9676333333333389,
+      "match_method": "no_match"
+    },
+    {
+      "slide_number": 4,
+      "start_time": 199.33246666666668,
+      "end_time": 1158.2571,
+      "duration": 958.9246333333333,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 5,
+      "start_time": 1158.2571,
+      "end_time": 1319.8518666666666,
+      "duration": 161.5947666666666,
+      "match_method": "ocr"
+    },
+    {
+      "slide_number": 6,
+      "start_time": 1319.8518666666666,
+      "end_time": 1329.5282,
+      "duration": 9.676333333333332,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": null,
+      "start_time": 1329.5282,
+      "end_time": 1332.4311,
+      "duration": 2.902900000000045,
+      "match_method": "no_match"
+    },
+    {
+      "slide_number": 6,
+      "start_time": 1332.4311,
+      "end_time": 1544.3428000000001,
+      "duration": 211.9117000000001,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": null,
+      "start_time": 1544.3428000000001,
+      "end_time": 1587.8863000000001,
+      "duration": 43.543499999999995,
+      "match_method": "no_match"
+    },
+    {
+      "slide_number": 7,
+      "start_time": 1587.8863000000001,
+      "end_time": 2071.7029666666667,
+      "duration": 483.8166666666666,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 8,
+      "start_time": 2071.7029666666667,
+      "end_time": 2153.9518,
+      "duration": 82.2488333333331,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 9,
+      "start_time": 2153.9518,
+      "end_time": 2209.1069,
+      "duration": 55.1551000000004,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 10,
+      "start_time": 2209.1069,
+      "end_time": 2267.1649,
+      "duration": 58.05799999999999,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 11,
+      "start_time": 2267.1649,
+      "end_time": 2310.7084,
+      "duration": 43.54349999999977,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 12,
+      "start_time": 2310.7084,
+      "end_time": 2394.8925,
+      "duration": 84.18409999999994,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": null,
+      "start_time": 2394.8925,
+      "end_time": 2396.827766666667,
+      "duration": 1.9352666666668483,
+      "match_method": "no_match"
+    },
+    {
+      "slide_number": 7,
+      "start_time": 2396.827766666667,
+      "end_time": 2516.8143,
+      "duration": 119.98653333333323,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": null,
+      "start_time": 2516.8143,
+      "end_time": 2519.7172,
+      "duration": 2.902900000000045,
+      "match_method": "no_match"
+    },
+    {
+      "slide_number": 12,
+      "start_time": 2519.7172,
+      "end_time": 2655.1858666666667,
+      "duration": 135.46866666666665,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": null,
+      "start_time": 2655.1858666666667,
+      "end_time": 2657.1211333333335,
+      "duration": 1.9352666666668483,
+      "match_method": "no_match"
+    },
+    {
+      "slide_number": 13,
+      "start_time": 2657.1211333333335,
+      "end_time": 2826.4569666666666,
+      "duration": 169.33583333333308,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": null,
+      "start_time": 2826.4569666666666,
+      "end_time": 2831.2951333333335,
+      "duration": 4.838166666666893,
+      "match_method": "no_match"
+    },
+    {
+      "slide_number": 13,
+      "start_time": 2831.2951333333335,
+      "end_time": 2952.2493,
+      "duration": 120.95416666666642,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 14,
+      "start_time": 2952.2493,
+      "end_time": 3085.7827,
+      "duration": 133.53340000000026,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 15,
+      "start_time": 3085.7827,
+      "end_time": 3448.6452,
+      "duration": 362.8624999999997,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": null,
+      "start_time": 3448.6452,
+      "end_time": 3449.6128333333336,
+      "duration": 0.9676333333336515,
+      "match_method": "no_match"
+    },
+    {
+      "slide_number": 16,
+      "start_time": 3449.6128333333336,
+      "end_time": 3546.376166666667,
+      "duration": 96.76333333333332,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 17,
+      "start_time": 3546.376166666667,
+      "end_time": 3812.4753333333333,
+      "duration": 266.0991666666664,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 18,
+      "start_time": 3812.4753333333333,
+      "end_time": 3924.7208,
+      "duration": 112.24546666666674,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 19,
+      "start_time": 3924.7208,
+      "end_time": 4141.470666666667,
+      "duration": 216.749866666667,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 20,
+      "start_time": 4141.470666666667,
+      "end_time": 4226.6224,
+      "duration": 85.15173333333314,
+      "match_method": "ocr"
+    },
+    {
+      "slide_number": 21,
+      "start_time": 4226.6224,
+      "end_time": 4295.324366666667,
+      "duration": 68.70196666666652,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 22,
+      "start_time": 4295.324366666667,
+      "end_time": 4302.0978000000005,
+      "duration": 6.773433333333742,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 23,
+      "start_time": 4302.0978000000005,
+      "end_time": 4334.0297,
+      "duration": 31.931899999999587,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 24,
+      "start_time": 4334.0297,
+      "end_time": 4392.0877,
+      "duration": 58.05799999999999,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": null,
+      "start_time": 4392.0877,
+      "end_time": 4394.022966666666,
+      "duration": 1.9352666666663936,
+      "match_method": "no_match"
+    },
+    {
+      "slide_number": 26,
+      "start_time": 4394.022966666666,
+      "end_time": 4566.2617,
+      "duration": 172.23873333333358,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": null,
+      "start_time": 4566.2617,
+      "end_time": 4575.203966666667,
+      "duration": 8.94226666666691,
+      "match_method": "no_match"
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "course_dir": "data/MIT_15.S08",
+  "total_classes": 12,
+  "processing_params": {
+    "fps": 1.0,
+    "phash_high_threshold": 0.7,
+    "phash_gap_threshold": 0.05,
+    "ocr_batch_size": 16,
+    "ocr_similarity_threshold": 0.7
+  },
+  "classes": [
+    {
+      "class_num": 1,
+      "video_file": "01_90JWoR9MfYU.mp4",
+      "pdf_file": "00e1e9bb7125a0fbc4fbc54cdd0463bf_MIT15-S08S20_class1.pdf",
+      "output_dir": "MIT_15.S08/class_01",
+      "statistics": {
+        "total_samples": 4493,
+        "phash_matches": 3542,
+        "ocr_matches": 725,
+        "no_matches": 226
+      },
+      "metadata": {
+        "video_path": "data/MIT_15.S08/cropped_videos/01_90JWoR9MfYU.mp4",
+        "pdf_path": "data/MIT_15.S08/pdf/00e1e9bb7125a0fbc4fbc54cdd0463bf_MIT15-S08S20_class1.pdf",
+        "duration": 4346.775766666667,
+        "sampling_fps": 1.0,
+        "phash_high_threshold": 0.7,
+        "phash_gap_threshold": 0.05,
+        "ocr_batch_size": 16,
+        "ocr_similarity_threshold": 0.7,
+        "total_slides_in_pdf": 29,
+        "method": "hybrid (pHash + DeepSeek OCR)"
+      }
+    },
+    {
+      "class_num": 2,
+      "video_file": "02_nq8la9qknx8.mp4",
+      "pdf_file": "88eccc78ce41c092740c99f49bf8fa7f_MIT15-S08S20_class2.pdf",
+      "output_dir": "MIT_15.S08/class_02",
+      "statistics": {
+        "total_samples": 4729,
+        "phash_matches": 3234,
+        "ocr_matches": 1289,
+        "no_matches": 206
+      },
+      "metadata": {
+        "video_path": "data/MIT_15.S08/cropped_videos/02_nq8la9qknx8.mp4",
+        "pdf_path": "data/MIT_15.S08/pdf/88eccc78ce41c092740c99f49bf8fa7f_MIT15-S08S20_class2.pdf",
+        "duration": 4575.804566666667,
+        "sampling_fps": 1.0,
+        "phash_high_threshold": 0.7,
+        "phash_gap_threshold": 0.05,
+        "ocr_batch_size": 16,
+        "ocr_similarity_threshold": 0.7,
+        "total_slides_in_pdf": 15,
+        "method": "hybrid (pHash + DeepSeek OCR)"
+      }
+    },
+    {
+      "class_num": 3,
+      "video_file": "03_OUAMdi281mQ.mp4",
+      "pdf_file": "3a1a36bd1ab2b763f367267884672aff_MIT15-S08S20_class3.pdf",
+      "output_dir": "MIT_15.S08/class_03",
+      "statistics": {
+        "total_samples": 4388,
+        "phash_matches": 3512,
+        "ocr_matches": 553,
+        "no_matches": 323
+      },
+      "metadata": {
+        "video_path": "data/MIT_15.S08/cropped_videos/03_OUAMdi281mQ.mp4",
+        "pdf_path": "data/MIT_15.S08/pdf/3a1a36bd1ab2b763f367267884672aff_MIT15-S08S20_class3.pdf",
+        "duration": 4245.774866666667,
+        "sampling_fps": 1.0,
+        "phash_high_threshold": 0.7,
+        "phash_gap_threshold": 0.05,
+        "ocr_batch_size": 16,
+        "ocr_similarity_threshold": 0.7,
+        "total_slides_in_pdf": 20,
+        "method": "hybrid (pHash + DeepSeek OCR)"
+      }
+    },
+    {
+      "class_num": 4,
+      "video_file": "04_LaP0Ut84GzI.mp4",
+      "pdf_file": "5c05b00cff763adaca20bd336ce56e60_MIT15-S08S20_class4.pdf",
+      "output_dir": "MIT_15.S08/class_04",
+      "statistics": {
+        "total_samples": 4802,
+        "phash_matches": 4192,
+        "ocr_matches": 188,
+        "no_matches": 422
+      },
+      "metadata": {
+        "video_path": "data/MIT_15.S08/cropped_videos/04_LaP0Ut84GzI.mp4",
+        "pdf_path": "data/MIT_15.S08/pdf/5c05b00cff763adaca20bd336ce56e60_MIT15-S08S20_class4.pdf",
+        "duration": 4645.674366666667,
+        "sampling_fps": 1.0,
+        "phash_high_threshold": 0.7,
+        "phash_gap_threshold": 0.05,
+        "ocr_batch_size": 16,
+        "ocr_similarity_threshold": 0.7,
+        "total_slides_in_pdf": 19,
+        "method": "hybrid (pHash + DeepSeek OCR)"
+      }
+    },
+    {
+      "class_num": 5,
+      "video_file": "05_59Dd5T6crKw.mp4",
+      "pdf_file": "2fe764d9b57e1c9da32b0ccdd42cf37b_MIT15-S08S20_class5.pdf",
+      "output_dir": "MIT_15.S08/class_05",
+      "statistics": {
+        "total_samples": 4518,
+        "phash_matches": 3940,
+        "ocr_matches": 533,
+        "no_matches": 45
+      },
+      "metadata": {
+        "video_path": "data/MIT_15.S08/cropped_videos/05_59Dd5T6crKw.mp4",
+        "pdf_path": "data/MIT_15.S08/pdf/2fe764d9b57e1c9da32b0ccdd42cf37b_MIT15-S08S20_class5.pdf",
+        "duration": 4371.500466666666,
+        "sampling_fps": 1.0,
+        "phash_high_threshold": 0.7,
+        "phash_gap_threshold": 0.05,
+        "ocr_batch_size": 16,
+        "ocr_similarity_threshold": 0.7,
+        "total_slides_in_pdf": 34,
+        "method": "hybrid (pHash + DeepSeek OCR)"
+      }
+    },
+    {
+      "class_num": 6,
+      "video_file": "06_4FGNLl9Btfw.mp4",
+      "pdf_file": "94d9a16a723af8341e92ad1eb76836a6_MIT15-S08S20_class6.pdf",
+      "output_dir": "MIT_15.S08/class_06",
+      "statistics": {
+        "total_samples": 4729,
+        "phash_matches": 4569,
+        "ocr_matches": 90,
+        "no_matches": 70
+      },
+      "metadata": {
+        "video_path": "data/MIT_15.S08/cropped_videos/06_4FGNLl9Btfw.mp4",
+        "pdf_path": "data/MIT_15.S08/pdf/94d9a16a723af8341e92ad1eb76836a6_MIT15-S08S20_class6.pdf",
+        "duration": 4575.203966666667,
+        "sampling_fps": 1.0,
+        "phash_high_threshold": 0.7,
+        "phash_gap_threshold": 0.05,
+        "ocr_batch_size": 16,
+        "ocr_similarity_threshold": 0.7,
+        "total_slides_in_pdf": 27,
+        "method": "hybrid (pHash + DeepSeek OCR)"
+      }
+    },
+    {
+      "class_num": 7,
+      "video_file": "07_JuKKBf-uSDI.mp4",
+      "pdf_file": "bf6652b320e525192082e047279ed17d_MIT15-S08S20_class7.pdf",
+      "output_dir": "MIT_15.S08/class_07",
+      "statistics": {
+        "total_samples": 5005,
+        "phash_matches": 4162,
+        "ocr_matches": 791,
+        "no_matches": 52
+      },
+      "metadata": {
+        "video_path": "data/MIT_15.S08/cropped_videos/07_JuKKBf-uSDI.mp4",
+        "pdf_path": "data/MIT_15.S08/pdf/bf6652b320e525192082e047279ed17d_MIT15-S08S20_class7.pdf",
+        "duration": 4842.504333333333,
+        "sampling_fps": 1.0,
+        "phash_high_threshold": 0.7,
+        "phash_gap_threshold": 0.05,
+        "ocr_batch_size": 16,
+        "ocr_similarity_threshold": 0.7,
+        "total_slides_in_pdf": 29,
+        "method": "hybrid (pHash + DeepSeek OCR)"
+      }
+    },
+    {
+      "class_num": 8,
+      "video_file": "08_oYR6xdcFNwc.mp4",
+      "pdf_file": "5620d789f6a066d71eeb31ab8a3cea2d_MIT15-S08S20_class8.pdf",
+      "output_dir": "MIT_15.S08/class_08",
+      "statistics": {
+        "total_samples": 4020,
+        "phash_matches": 2149,
+        "ocr_matches": 1494,
+        "no_matches": 377
+      },
+      "metadata": {
+        "video_path": "data/MIT_15.S08/cropped_videos/08_oYR6xdcFNwc.mp4",
+        "pdf_path": "data/MIT_15.S08/pdf/5620d789f6a066d71eeb31ab8a3cea2d_MIT15-S08S20_class8.pdf",
+        "duration": 3889.1853,
+        "sampling_fps": 1.0,
+        "phash_high_threshold": 0.7,
+        "phash_gap_threshold": 0.05,
+        "ocr_batch_size": 16,
+        "ocr_similarity_threshold": 0.7,
+        "total_slides_in_pdf": 20,
+        "method": "hybrid (pHash + DeepSeek OCR)"
+      }
+    },
+    {
+      "class_num": 9,
+      "video_file": "09_uHUA6M1OEwk.mp4",
+      "pdf_file": "bb56a58d58d880fabe9cd5c46700096a_MIT15-S08S20_class9.pdf",
+      "output_dir": "MIT_15.S08/class_09",
+      "statistics": {
+        "total_samples": 4837,
+        "phash_matches": 4251,
+        "ocr_matches": 74,
+        "no_matches": 512
+      },
+      "metadata": {
+        "video_path": "data/MIT_15.S08/cropped_videos/09_uHUA6M1OEwk.mp4",
+        "pdf_path": "data/MIT_15.S08/pdf/bb56a58d58d880fabe9cd5c46700096a_MIT15-S08S20_class9.pdf",
+        "duration": 4679.675,
+        "sampling_fps": 1.0,
+        "phash_high_threshold": 0.7,
+        "phash_gap_threshold": 0.05,
+        "ocr_batch_size": 16,
+        "ocr_similarity_threshold": 0.7,
+        "total_slides_in_pdf": 22,
+        "method": "hybrid (pHash + DeepSeek OCR)"
+      }
+    },
+    {
+      "class_num": 10,
+      "video_file": "10_pA-AgV8wo0o.mp4",
+      "pdf_file": "bfb9c36b3cc2dba00c1da0dbca4d11e0_MIT15-S08S20_class10.pdf",
+      "output_dir": "MIT_15.S08/class_10",
+      "statistics": {
+        "total_samples": 3206,
+        "phash_matches": 7,
+        "ocr_matches": 3075,
+        "no_matches": 124
+      },
+      "metadata": {
+        "video_path": "data/MIT_15.S08/cropped_videos/10_pA-AgV8wo0o.mp4",
+        "pdf_path": "data/MIT_15.S08/pdf/bfb9c36b3cc2dba00c1da0dbca4d11e0_MIT15-S08S20_class10.pdf",
+        "duration": 3101.8988,
+        "sampling_fps": 1.0,
+        "phash_high_threshold": 0.7,
+        "phash_gap_threshold": 0.05,
+        "ocr_batch_size": 16,
+        "ocr_similarity_threshold": 0.7,
+        "total_slides_in_pdf": 26,
+        "method": "hybrid (pHash + DeepSeek OCR)"
+      }
+    },
+    {
+      "class_num": 11,
+      "video_file": "11_iahUTx27HUg.mp4",
+      "pdf_file": "2005a6d8eeee7b547461b23ca37c4d06_MIT15-S08S20_class11.pdf",
+      "output_dir": "MIT_15.S08/class_11",
+      "statistics": {
+        "total_samples": 1988,
+        "phash_matches": 128,
+        "ocr_matches": 1836,
+        "no_matches": 24
+      },
+      "metadata": {
+        "video_path": "data/MIT_15.S08/cropped_videos/11_iahUTx27HUg.mp4",
+        "pdf_path": "data/MIT_15.S08/pdf/2005a6d8eeee7b547461b23ca37c4d06_MIT15-S08S20_class11.pdf",
+        "duration": 1922.7875333333334,
+        "sampling_fps": 1.0,
+        "phash_high_threshold": 0.7,
+        "phash_gap_threshold": 0.05,
+        "ocr_batch_size": 16,
+        "ocr_similarity_threshold": 0.7,
+        "total_slides_in_pdf": 15,
+        "method": "hybrid (pHash + DeepSeek OCR)"
+      }
+    },
+    {
+      "class_num": 12,
+      "video_file": "12_kZ1EqqnUw6M.mp4",
+      "pdf_file": "f9eb9ff275d5f7e10cb4fba88ceae7c6_MIT15-S08S20_class12.pdf",
+      "output_dir": "MIT_15.S08/class_12",
+      "statistics": {
+        "total_samples": 5089,
+        "phash_matches": 829,
+        "ocr_matches": 4050,
+        "no_matches": 210
+      },
+      "metadata": {
+        "video_path": "data/MIT_15.S08/cropped_videos/12_kZ1EqqnUw6M.mp4",
+        "pdf_path": "data/MIT_15.S08/pdf/f9eb9ff275d5f7e10cb4fba88ceae7c6_MIT15-S08S20_class12.pdf",
+        "duration": 4923.451866666666,
+        "sampling_fps": 1.0,
+        "phash_high_threshold": 0.7,
+        "phash_gap_threshold": 0.05,
+        "ocr_batch_size": 16,
+        "ocr_similarity_threshold": 0.7,
+        "total_slides_in_pdf": 33,
+        "method": "hybrid (pHash + DeepSeek OCR)"
+      }
+    }
+  ]
+}

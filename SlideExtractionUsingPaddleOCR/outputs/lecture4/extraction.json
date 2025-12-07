@@ -1,0 +1,302 @@
+[
+  {
+    "title": "FinTech:",
+    "text": [
+      "Shaping the Financial World",
+      "April 8, 2020",
+      "1 1"
+    ],
+    "slide_number": 1
+  },
+  {
+    "title": "Class 4: Overview",
+    "text": [
+      "• Application Program Interface",
+      "• Finance Customer Interface",
+      "• Open API & Open Banking",
+      "• Data Aggregators",
+      "• Financial Data Exchange",
+      "• Robotic Process Automation",
+      "• Assignments",
+      "2 2"
+    ],
+    "slide_number": 2
+  },
+  {
+    "title": "Class 4: Readings",
+    "text": [
+      "• 'Report on open banking and application programming interfaces'",
+      "Bank of International Settlement",
+      "• 'Fintechs next decade will look radically different' Nik Milanovic",
+      "• 'RPA in Banking Use-cases, Benefits and Steps' Maruti Techlabs",
+      "3 3"
+    ],
+    "slide_number": 3
+  },
+  {
+    "title": "Class 4: Study Questions",
+    "text": [
+      "• What are some major trends affecting marketing channels & customer",
+      "processes for financial services?",
+      "• How are Open API initiatives influencing these trends?",
+      "• What is robotic process automation (RPA) and screen scraping? How is it",
+      "being used in the financial sector and does it relate to open API",
+      "technologies?",
+      "4 4"
+    ],
+    "slide_number": 4
+  },
+  {
+    "title": "The three basic types of APls",
+    "text": [
+      "APls take three basic forms: local, web-like and program-like. Here's a look at each type.",
+      "Local APIs Web APIs Program APIs",
+      "The original APl, created Designed to represent Based on RPC technology",
+      "to provide operating widely used resources like that makes a remote",
+      "system or middleware HTML pages and are program component appear",
+      "services to application accessed using a simple to be local to the rest of",
+      "programs. HTTP protocol. Often the software.",
+      "called REST APIs or",
+      "RESTful APIs.",
+      "© TechTarget. All rights reserved. This content is excluded from our Creative 5 Source: ‘How to do API testing to improve application quality’,5",
+      "Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/ TechTarget (12/19/19)Source: 'How to do API testing to improve application quality',"
+    ],
+    "slide_number": 5
+  },
+  {
+    "title": "Open API?",
+    "text": [
+      "Open API?",
+      "ETT",
+      "© MuleSoft LLC. All rights reserved. This content is excluded from our Creative Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/ 6 6",
+      "MuleSoft LLC. All rights reserved. This content is excluded from our Creative Commons license. For more6 Source: ‘What is API-led Connectivity’, MuleSoft Blog (7/12/17)"
+    ],
+    "slide_number": 6
+  },
+  {
+    "title": "API Service Providers – Non-Finance",
+    "text": [
+      "• Authentication: Auth0 (2013)",
+      "• Customer Data: Salesforce (1999), Scale (2016), Segment (2011)",
+      "• Email: Mailgun (2010), SendGrid (2009)",
+      "• Employment: Checkr (2014)",
+      "• Monitoring: Datadog (2010), Dynatrace (2005), Splunk (2003)",
+      "• Package Shipping: Shippo (2013)",
+      "• Messaging, Video & Voice: MessageBird (2011), Twilio (2008)",
+      "7 7"
+    ],
+    "slide_number": 7
+  },
+  {
+    "title": "Finance",
+    "text": [
+      "Chatbots, CI & Voice Assistants (2010s)",
+      "Customer Interface",
+      "Open APIs (2000s) & Open Banking (2015)",
+      "Contactless & Cardless Systems (2000s) >",
+      "Mobile Payments (2000s) & Wallets (2008) >",
+      "Internet (1990s) & On-line Banking (1990s - 2000s) >",
+      "Automatic Teller Machines (1970s) >",
+      "Credit Cards (1940 – 50s) & Point of Sale Systems (1980s) >",
+      "Mortgage Brokerage (1890s) & Automobile Indirect Lenders (1910s) >",
+      "Electronic Payments (1870s), Wires (1910s), ACH (1970s) & Direct Deposits (1970s) >",
+      "Checks (800s), Negotiable Checks (1500s), & Preprinted Checks (1760s) >",
+      "Banking - Tents, Temples, Bricks & Mortar (4 th– 1 st millennium BCE) >",
+      "8 8"
+    ],
+    "slide_number": 8
+  },
+  {
+    "title": "Open API & Open Banking",
+    "text": [
+      "• Open Application Program Interfaces (Open API) allow",
+      "outside Developers access to and an ability to Integrate",
+      "Permissioned Customer Data into Third Party Applications",
+      "• Open Banking initiatives facilitates or mandates Open API for",
+      "Non-banks to Share Permissioned Bank Customer Data",
+      "9 9"
+    ],
+    "slide_number": 9
+  },
+  {
+    "title": "Open API & Open Banking",
+    "text": [
+      "• Policy Trade-offs of Promoting Competition & Innovation,",
+      "Limiting Cybersecurity Risks, and Maintaining Privacy &",
+      "Consumer Protections",
+      "• EU Payment System Directive (PSD2), UK Open Banking",
+      "Initiative, etc.",
+      "• Alternatives: Screen Scraping, Reverse Engineering & Robotic",
+      "Process Automation",
+      "10 10"
+    ],
+    "slide_number": 10
+  },
+  {
+    "title": "Global view of open banking developments Figure 1",
+    "text": [
+      "EU",
+      "KR",
+      "HK",
+      "SG",
+      "Prescriptive1",
+      "Facilitative²2",
+      "Market-driven³",
+      "In process of adopting. © Bank of International Settlements  All rights reserved. This content is excluded from our Creative Commons license. For more information, see",
+      "or actively considering © Bank of International Settlements All rights reserved. This content is excluded from our Creative Commons license. For more information,https://ocw.mit.edu/help/faq-fair-use/https://ocw.mit.edu/help/faq-fair-use/",
+      "Requires data sharing, 2 Encourages data sharing, 3 No explicit rule/guidance requiring data sharing, 4 In probcess of adopting or 11 Source: ‘Report on open banking and application programming 11",
+      "opting interfaces’, Bank of International Settlement (November 2019)"
+    ],
+    "slide_number": 11
+  },
+  {
+    "title": "Comparison of open banking frameworks Figure",
+    "text": [
+      "Mandatory Australia",
+      "European Union1",
+      "Formal regulation",
+      "for third parties",
+      "Approach Governance Framework Hong Kong",
+      "APl standardisation Singapore, Japan",
+      "Market driven China, Argentina",
+      "partnership US",
+      "Product information, Account information Fund transfer",
+      "Service fees",
+      "© Bank of International Settlements.  All rights reserved. This content is excluded from our Creative Commons license. For more information, see Types of banking data and activities https://ocw.mit.edu/help/faq-fair-use/",
+      "12 Source: ‘Report on open banking and application programming 12",
+      "perimeter depicte in this figure represents the scope of the U's D, which only applis  paymt servics. Indiviual open banking frameworks beyond the requirements of PSD2 interfaces’, Bank of International Settlement (November 2019)intor: Donlof lntonn"
+    ],
+    "slide_number": 12
+  },
+  {
+    "title": "Third Party Banking APIs-",
+    "text": [
+      "Data Aggregators",
+      "Envestnet (Yodlee)",
+      "Competitive Landscape",
+      "Finicity",
+      "• Analytics",
+      "Fiserv (CashEdge)",
+      "• Coverage",
+      "Galileo",
+      "• Developer Service",
+      "Instantor",
+      "• Price",
+      "Marqeta",
+      "• Reliability",
+      "MX",
+      "• Security",
+      "Plaid (& Quovo)",
+      "• User Experience",
+      "SaltEdge",
+      "SynapsePay",
+      "Tink 13 13"
+    ],
+    "slide_number": 13
+  },
+  {
+    "title": "Third Party Banking APIs -",
+    "text": [
+      "Account Aggregators",
+      "Afterbanks(Spain, Portugal and Mexico),Bankin(Europe),",
+      "Basiq(Australia),Bud(UK),Budget Insight(Europe),Canopy(Singapore),",
+      "CreditSense(Australia and New Zealand),DirectID(UK),Eurobits(Spain),",
+      "eWise(Australia, Asia & Europe),figo.io(Germany and Austria),",
+      "FinApi(Germany, Austria, Czech Republic and Slovenia),Finicity(US),",
+      "FintecSystems(Germany and Austria),FormFree(US),Fractal(UK SMEs),",
+      "Instantor(Europe, Brazil & Mexico),Klarna(Europe),Kontomatik(Europe,",
+      "Brazil & Mexico),Moneyhub(UK),Moneytree(Japan and Australia),",
+      "Nordic API Gateway(Scandinavia),Plaid(US),Proviso(Australia and New",
+      "Zealand),Quovo(US),SaltEdge(55 Countries),SynapsePay(US),",
+      "Tink(Europe),Topicus Finance(Netherlands),Token.io(Europe),",
+      "Yodlee(US, UK, Spain, Australia, India and New Zealand)",
+      "14 14",
+      "Source: ‘List of all banking APIs’, Nordigen Medium Post (3/2/17)"
+    ],
+    "slide_number": 14
+  },
+  {
+    "title": "200+ Million User Accounts",
+    "text": [
+      "Plaid Account Fintech",
+      "Plaid Authentication Products &",
+      "& Authorization Applications",
+      "Founded 2013 2,600+ Fintech & Financial Institution Developers",
+      "Fintech 1 Fin. Instit. 2 Cust. 2,600+",
+      "• Founded 2013",
+      "$5.3B Merger announced",
+      "• $5.3B Merger announced",
+      "PLAID",
+      "with Visa (January 2020)",
+      "Integrate With a Single Platform",
+      "• 450 Employees",
+      "• Estimated $109M Revenues Fin. Inst. 1 Fin. Inst.2 Fin.Inst.11,000+",
+      "11,000+ Connected Institutions & Data Sources",
+      "Linked Accounts",
+      "Checking Savings Credit Brokerage",
+      "Data",
+      "Account Information Liabilities Transaction Data",
+      "© Seeking Alpha.  All rights reserved. This Identity Income Assets Balance",
+      "content is excluded from our Creative",
+      "Commons license. For more information, see 15 15 15 15",
+      "https://ocw.mit.edu/help/faq-fair-use/https://ocw.mit.edu/help/faq-fair-use/Sources: ‘Visa’s Acquisition of Plaid’, Visa (1/13/20); & ‘What’s Visa Going To Do With Plaid?’, Forbes (1/20/20) for Plaid Rev. Est."
+    ],
+    "slide_number": 15
+  },
+  {
+    "title": "Financial Data Exchange",
+    "text": [
+      "• “Standards for financial data sharing",
+      "• Standards for secure authentication",
+      "and authorization",
+      "• A certification program and standards",
+      "body",
+      "• User experience, consent guidelines",
+      "and best practices”",
+      "© Financial Data Exchange. All rights reserved. This content",
+      "is excluded from our Creative Commons license. For more",
+      "information, see https://ocw.mit.edu/help/faq-fair-use/ © Various companies. All rights reserved. This content is excluded from our Creative",
+      "16 Commons license. For more information, see https://ocw.mit.edu/help/faq-fair-use/16",
+      "Source: ‘Organization Overview’, Financial Data Exchange"
+    ],
+    "slide_number": 16
+  },
+  {
+    "title": "Robotic Process Automation",
+    "text": [
+      "• Account Opening & Onboarding",
+      "• Loan Processing",
+      "• Report Generation",
+      "• Screen Scraping",
+      "17 17"
+    ],
+    "slide_number": 17
+  },
+  {
+    "title": "Assignments",
+    "text": [
+      "• Group Research Paper (3000 – 3600 words due 5/11)",
+      "• Recommended business and technology strategy within a particular",
+      "sector",
+      "• To CEO of B of A, Amazon, or Andreessen Horowitz",
+      "• Teams required to be Formed and Sector Selected by 4/8",
+      "• Individual Business Write-up (900 – 1200 words due 4/24)",
+      "• Each student individually addresses 1 of the following:",
+      "• a) overall market analysis, b) technology trend analysis, c) traditional",
+      "competitor analysis, & d) big tech & fintech disrupter competitive",
+      "analysis",
+      "18 18"
+    ],
+    "slide_number": 18
+  },
+  {
+    "title": "MIT OpenCourseWare https://ocw.mit.edu/",
+    "text": [
+      "15.S08 FinTech: Shaping the Financial World",
+      "Spring 2020",
+      "For information about citing these materials or our Terms of Use, visit:https://ocw.mit.edu/terms.",
+      "19 19"
+    ],
+    "slide_number": 19
+  }
+]

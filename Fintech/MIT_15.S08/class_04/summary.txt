@@ -1,0 +1,38 @@
+The lecture series focuses on the evolution of financial technology (fintech) and its impact on the finance sector. Key topics include:
+
+1. **Introduction to Fintech and User Interfaces**:
+   - Professor Gary Gensler introduces the class, emphasizing the role of APIs in computer-to-computer communication.
+   - Discusses the integration of fintech into finance, noting its significant growth over the past few years and its expected full integration by the end of the decade.
+
+2. **Key Themes in Fintech**:
+   - Shift in financial services towards third-party access through APIs, changing the competitive landscape.
+   - Embedded finance, where financial services are integrated into everyday products and services like ride-sharing apps.
+   - Bundling vs. unbundling trends, with a focus on the role of APIs in facilitating data access and security.
+   - Use of Robotic Process Automation (RPA) for various business processes, both by incumbents and fintech companies.
+
+3. **APIs and Open Banking**:
+   - Open APIs as public interfaces for software interaction, enabling broader access and standardizing data sharing.
+   - Discussion on the challenges and benefits of implementing RPA and APIs in financial institutions.
+   - Importance of API management layers to simplify integration and enhance security.
+
+4. **Regulatory and Market Dynamics**:
+   - Overview of global open banking regulations, with Europe and Australia leading in mandatory standards.
+   - Comparison of regulatory approaches in different regions, including the U.S., China, and Latin America.
+   - Role of companies like Plaid and Yodlee in providing standardized financial interfaces and aggregating data.
+
+5. **Impact of the Coronavirus Crisis**:
+   - Significant government funding for small businesses through programs like the PPP.
+   - Fintech companies’ role in automating loan application processes to enhance efficiency and financial inclusion.
+   - Use of RPA to streamline operations and improve compliance.
+
+6. **Embedded Finance and Technological Advancements**:
+   - Integration of financial services into non-financial applications, exemplified by companies like Uber and Lyft.
+   - Historical precedents and technological progress enabling new financial services.
+   - Fragmented nature of financial services and the role of APIs in streamlining processes.
+
+7. **Engagement and Assignments**:
+   - Importance of engaging with course material through assignments, especially when the grading system is flexible.
+   - Recommendations for choosing topics that interest students and targeting influential entities like big tech firms or venture capital firms.
+   - Revenue models of fintech companies, emphasizing data aggregation and cross-selling strategies.
+
+Overall, the lectures highlight the transformative impact of technology on financial services, the strategic challenges faced by incumbents, and the opportunities for fintech companies in an increasingly interconnected and data-driven market.

@@ -1,0 +1,31 @@
+The lecture series covers recent developments in financial technology (FinTech), focusing on online (mobile) brokerage applications, robo-advising, and the broader impact of technological advancements on the financial industry. Key themes include:
+
+1. **Mobile Trading Apps and Robo-Advisors**: 
+   - **Robinhood and Others**: Highlighting the adoption of mobile-first approaches and the elimination of traditional commission structures, making financial services more accessible.
+   - **Historical Context**: Discussing the evolution of online brokerages from the 1980s and 1990s to modern mobile trading apps.
+
+2. **Cost Reduction and Revenue Streams**:
+   - **Commission Rates**: Reviewing the shift from high to zero commission fees, driven by increased competition and regulatory changes.
+   - **Revenue Models**: Exploring how robo-advisors and other fintech solutions generate revenue through various means, including the bid-ask spread, margin lending, and data sales.
+
+3. **Regulatory and Business Models**:
+   - **Robo-Advisors**: Examining the growth of robo-advisors and their impact on traditional financial advisory services.
+   - **High-Frequency Trading**: Discussing the role of platforms in high-frequency trading and the sale of order flow.
+
+4. **Technological Advancements**:
+   - **User Interface Improvements**: Emphasizing the importance of intuitive interfaces in modern trading apps.
+   - **Machine Learning and AI**: Highlighting the use of AI and machine learning in investment strategies and customer service.
+
+5. **Market Dynamics and Innovations**:
+   - **Digital Brokers and Exchanges**: Exploring the potential of digital brokers in fixed-income markets and the rise of decentralized finance (DeFi).
+   - **Collateral Management**: Discussing advancements in collateral management and back-office operations.
+
+6. **Investor Protection and Regulation**:
+   - **Crypto Trading**: Addressing the challenges of integrating cryptocurrency trading into traditional platforms and the need for robust investor protection.
+   - **Decentralized Finance**: Examining the potential of DeFi platforms and the limitations of current decentralized models.
+
+7. **Historical Context and Competitive Landscape**:
+   - **Early Internet-Based Financial Services**: Reviewing the emergence of early online brokerage companies and their impact on the industry.
+   - **Market Consolidation**: Discussing the potential for consolidation in advisory platforms and the integration of smaller players into larger financial institutions.
+
+Overall, the lectures provide a comprehensive overview of the evolution of financial platforms, the strategic importance of technological advancements, and the broader implications for the financial industry, including regulatory challenges and competitive dynamics.

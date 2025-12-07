@@ -1,0 +1,463 @@
+[
+    {
+        "title": "FinTech: Shaping the Financial World",
+        "text": [
+            "15.S08, Spring 2020",
+            "Class 5:",
+            "Blockchain Technology & Cryptocurrencies",
+            "Prof. Gary Gensler"
+        ],
+        "slide_number": 1
+    },
+    {
+        "title": "Class 5: Overview",
+        "text": [
+            "The Internet and the Payment Riddle",
+            "Money",
+            "Satoshi Nakamoto’s Innovation",
+            "Crypto Markets",
+            "Blockchain Technology Use Cases",
+            "Challenges & Assessing Viability of Use Cases",
+            "Central Bank Digital Currencies",
+            "Ground Truths"
+        ],
+        "slide_number": 2
+    },
+    {
+        "title": "Class 5: Readings",
+        "text": [
+            "'Even if a Thousand Projects Don’t Make It, Blockchain Is Still a Change Catalyst' Gensler, CoinDesk",
+            "'Economics of Money & Blockchain Technology and Evaluating Projects' MIT Cryptocurrency Online Course",
+            "'Responses from Big Finance' MIT Cryptocurrency Online Course",
+            "'The technology of retail central bank digital currency' Bank of International Settlement"
+        ],
+        "slide_number": 3
+    },
+    {
+        "title": "Class 5: Study Questions",
+        "text": [
+            "How does Bitcoin fit within the history of money, the emergence of the Internet and failed attempts of cryptographic payment systems?",
+            "What are the strategic and tactical considerations in assessing the viability and value proposition of a blockchain technology project? How can you separate rigorous analysis from mere assertion and hype in the blockchain ecosystem?",
+            "What strategic considerations should go into Central Banks thinking of expanding access to digital reserves through central bank digital currency (CBDC)?"
+        ],
+        "slide_number": 4
+    },
+    {
+        "title": "'The Net' opening scene 1995 Sandra Bullock",
+        "text": [
+            "'The Net' opening scene",
+            "1995",
+            "Sandra Bullock",
+            "Pizza.Net",
+            "Please enter your name, address and phone:",
+            "Angela Bennett",
+            "407 Vinkey Street",
+            "City: Venice",
+            "State: CA",
+            "Zip: 90201",
+            "Phone: (310) 853-3472",
+            "Pizza"
+        ],
+        "slide_number": 5
+    },
+    {
+        "title": "Internet and the Payments Riddle",
+        "text": [
+            "How to Move Value on the Internet",
+            "Securely",
+            "Efficiently",
+            "As a Packet of Data – Peer to Peer",
+            "While Prohibiting Double Spending"
+        ],
+        "slide_number": 6
+    },
+    {
+        "title": "Early Cryptographic Digital Currencies ... Failed",
+        "text": [
+            "Notable Efforts",
+            "- DigiCash (1994), Mondex (1994), CyberCash (1994)",
+            "- E-gold (1996), Hashcash (1997)",
+            "- Bit Gold (1998), B-Money (1998), Lucre (1999)",
+            "Hurdles",
+            "- Merchant adoption",
+            "- Centralization",
+            "- Double Spending",
+            "- Consensus"
+        ],
+        "slide_number": 7
+    },
+    {
+        "title": "Early Digital & Mobile Payment Solutions",
+        "text": [
+            "Secure Socket Layer",
+            "Transport Layer Security",
+            "SSL / TLS - 1996",
+            "Cryptographic Protocols for",
+            "Secure Network Communication",
+            "WE ACCEPT",
+            "VISA",
+            "AMERICAN EXPRESS",
+            "DISCOVER",
+            "MasterCard",
+            "PayPal",
+            "1998",
+            "ERICSSON",
+            "telenor 1999",
+            "支付宝 ALIPAY",
+            "2003",
+            "M-PESA Safaricom",
+            "2007"
+        ],
+        "slide_number": 8
+    },
+    {
+        "title": "Money",
+        "text": [
+            "Plato:",
+            "• Money is a 'symbol' devised for the purpose of exchanges",
+            "• Opposed using gold or silver for money",
+            "Aristotle:",
+            "• Solves the 'problem of commensurability'",
+            "• 'Money is a guarantee that we may have what we want in the future. Though we need nothing at the moment it insures the possibility of satisfying a new desire when it arises.'",
+            "• Four absolutes to have 'Universal Value':",
+            "• Durable, Portable, Divisible & Intrinsic Value",
+            "Modern Characteristics:",
+            "• Durable, Portable, Divisible, Uniform, Acceptable, & Stable"
+        ],
+        "slide_number": 9
+    },
+    {
+        "title": "What is the Role of Money?",
+        "text": [
+            "Medium of Exchange",
+            "Store of Value",
+            "Unit of Account"
+        ],
+        "slide_number": 10
+    },
+    {
+        "title": "Fiat Currency",
+        "text": [
+            "Represented by:",
+            "Central Bank Notes",
+            "Central Bank Reserves &",
+            "Commercial Bank Deposits",
+            "Relies upon System of Ledgers",
+            "Very Significant Network Effects:",
+            "Accepted for Taxes",
+            "Legal Tender for All Debts Public & Private",
+            "Accepted throughout Economy / Optimum Currency Area"
+        ],
+        "slide_number": 11
+    },
+    {
+        "title": "license. For more information, see https://ocw.mit.e",
+        "text": [
+            "The Net opening scene © Columbia Pictures",
+            "Logos @ Various companies",
+            "Imperial credit coins © Hasbro",
+            "Medium of exchange illustration © Source unknown",
+            "Star Wars credit chip and Wupiupi © DK Publishing"
+        ],
+        "slide_number": 12
+    },
+    {
+        "title": "Satoshi Nakamoto: Bitcoin P2P e-cash paper",
+        "text": [
+            "October 31, 2008",
+            "\"I've been working on a new electronic cash system that's fully peer-to-peer, with no trusted third party.\""
+        ],
+        "slide_number": 13
+    },
+    {
+        "title": "Blockchain Technology",
+        "text": [
+            "timestamped",
+            "append-only ledger",
+            "",
+            "Secured via cryptography",
+            "Hash functions for integrity",
+            "Digital signatures for consent"
+        ],
+        "slide_number": 14
+    },
+    {
+        "title": "Smart Contracts",
+        "text": [
+            "\"A set of promises,",
+            "• specified in digital form,",
+            "• including protocols",
+            "• within which the parties perform on these promises.\"",
+            "Nick Szabo, 1996",
+            "However ....",
+            "• Smart Contracts may not be 'Smart'",
+            "• Smart Contracts may not be 'Contracts'"
+        ],
+        "slide_number": 15
+    },
+    {
+        "title": "Cryptocurrency Market Caps (historical) coin.dance",
+        "text": [
+            "Crypto Market - $199 Billion (4/12/20)",
+            "Bitcoin 65.22%",
+            "Ethereum 9.1%",
+            "XRP 4.2%",
+            "Tether 3.2%",
+            "Bitcoin Cash 2.2%",
+            "Litecoin 1.4%",
+            "EOS 1.2%",
+            "Bitcoin SV 1.2%",
+            "Other 11.4%",
+            "Altcoin Market Cap",
+            "Bitcoin Market Cap"
+        ],
+        "slide_number": 16
+    },
+    {
+        "title": "Crypto Token Sectors",
+        "text": [
+            "Payment / Store of Value Tokens ≈ $152B – 76%",
+            "Bitcoin ($128B), ...",
+            "Platform Tokens ≈ $29B – 15%",
+            "Ethereum ($18B), ...",
+            "DApp Tokens ≈ $10B – 5%",
+            "Binance Coin ($2.3B), ...",
+            "Stable Value Tokens ≈ $8B – 4%",
+            "Tether ($6.4B), ...",
+            "Tokenized Securities and Assets",
+            "Source: Market Values from CoinMarketCap (4.12.20)"
+        ],
+        "slide_number": 17
+    },
+    {
+        "title": "Blockchain Tech Potential Uses",
+        "text": [
+            "Speculative Investing",
+            "Crowdfunding through Initial Coin Offerings",
+            "Tokens for Exchanges, Gaming, Gambling, DeFi & File Sharing",
+            "Tokenized Fiat (Stable Value Coins), Securities & Assets",
+            "Payment Systems",
+            "Trade Finance & Supply Chain Management",
+            "Clearing, Settlement & Processing",
+            "Central Bank Initiatives",
+            "Digital ID & MIT Diploma",
+            "Medical Records, Property Records, Internet of Things, Voting ...",
+            "$"
+        ],
+        "slide_number": 18
+    },
+    {
+        "title": "Blockchain Technology Challenges",
+        "text": [
+            "Scalability, Performance & Efficiency",
+            "Privacy",
+            "Security",
+            "Interoperability",
+            "Governance",
+            "Public Policy Frameworks",
+            "Commercial Use Cases"
+        ],
+        "slide_number": 19
+    },
+    {
+        "title": "Framework for Comparing Costs & Trade-offs (Coase)",
+        "text": [
+            "Framework for Comparing Costs & Trade-offs",
+            "(Coase)",
+            "Decentralized",
+            "Centralized",
+            "Capture, Rents,",
+            "Single Point of",
+            "Failure"
+        ],
+        "slide_number": 20
+    },
+    {
+        "title": "Vitalik Buterin Trilemma",
+        "text": [
+            "Scalability",
+            "Decentralization",
+            "Security"
+        ],
+        "slide_number": 21
+    },
+    {
+        "title": "Assessing Use Cases – First Considerations",
+        "text": [
+            "Which side of a divide the project is on?",
+            "Is the project one that services the new crypto asset class?",
+            "Is the project one uses blockchain technology and cryptocurrencies?",
+            "Projects servicing the cryptocurrency space:",
+            "Custody solution – Coinbase, Fidelity",
+            "Software provider – Blockstream",
+            "Hardware company – BitMain",
+            "Mining pool operator – BTC, F2Pool, Poolin",
+            "Exchange operation – Binance, Coinbase",
+            "Wallet provider – Circle",
+            "Asset manager – Bitcoin Suisse, Galaxy",
+            "News service – CoinDesk"
+        ],
+        "slide_number": 22
+    },
+    {
+        "title": "Assessing Use Cases – Strategic Considerations",
+        "text": [
+            "What value creation proposition is there?",
+            "Decentralized vs. Centralized Computing?",
+            "Native Token filling what Gaps in Fiat Currency system?",
+            "What are competitors (Traditional & Blockchain) doing?",
+            "Why use append only ledgers, multiple party consensus and native token?",
+            "What verification or networking costs can actually be reduced?"
+        ],
+        "slide_number": 23
+    },
+    {
+        "title": "Assessing Use Cases – Tactical Considerations",
+        "text": [
+            "Which data needs recording on append-only ledgers?",
+            "Which multiple stakeholders need 'write' access to the shared ledger?",
+            "What are the tradeoffs of performance, privacy, security, governance & regulation?",
+            "How can broad adoption and user interface be realized?",
+            "If permissionless, what are the token incentive systems?"
+        ],
+        "slide_number": 24
+    },
+    {
+        "title": "Assessing Use Cases – Deeper dive",
+        "text": [
+            "Why use multiple party shared ledger?",
+            "Why choose a distributed ledger solution over a centralized one?",
+            "Why not rely on a third-party authority or host?",
+            "Is the value proposition well distributed amongst all parties?",
+            "What is the adoption model?",
+            "What specific verification or networking costs can be reduced?",
+            "Authentication? Traceability? Trust?",
+            "Are the transaction processes & data standardized?",
+            "How much data needs to be stored?"
+        ],
+        "slide_number": 25
+    },
+    {
+        "title": "Incumbents’ Choices of Databases",
+        "text": [
+            "Access",
+            "Client Server",
+            "Permissioned",
+            "Permissionless",
+            "Traditional Databases",
+            "Trusted Party Hosts Data",
+            "Trusted Party can Create, Read, Update, & Delete (CRUD)",
+            "Client Server Architecture",
+            "Private Blockchain",
+            "Known Participants",
+            "Private Write Capability",
+            "Append Only Timestamped Log",
+            "Publicly Verifiable",
+            "No Native Currency Needed",
+            "Public Blockchain",
+            "Unknown Participants",
+            "No Central Intermediaries",
+            "Public Write Capability",
+            "Peer to Peer Transactions",
+            "Native Tokens & Incentives"
+        ],
+        "slide_number": 26
+    },
+    {
+        "title": "Central Bank Initiatives",
+        "text": [
+            "Real Time Gross Settlement",
+            "- Brazil, Canada (Project Jasper), Europe and Japan (Project Stella), Singapore (Project Ubin), South Africa (Project Khokha)",
+            "Digital Currency",
+            "- Central Bank Claim: Bahamas (Sand Dollar), Ecuador (Dinero Electrónico), Iran (Payman), Sweden (E-Krona)",
+            "- Commercial Bank Claim: Philippines (ePiso), Senegal (eCFA), Tunisia (e-Dinar)",
+            "- Possible Hybrid: China (Digital Currency Electronic Payment)",
+            "- Commodity Backed: U.K. (Royal Mint Gold), Venezuela (Petro)",
+            "- Other: Dubai – emCash, Saudi & UAE (cross-border pilot), Uruguay (Digital Peso)"
+        ],
+        "slide_number": 27
+    },
+    {
+        "title": "CBDC Potential Architectures",
+        "text": [
+            "Indirect CBDC (synthetic/tw-tier/multi-cell)",
+            "Central bank",
+            "Assets 600",
+            "CBDC X: 300",
+            "CBDC bank X",
+            "CBDC A: 200",
+            "CBDC B: 100",
+            "ICBDC C: 300",
+            "CBDC bank Y",
+            "ICBDC A: 300",
+            "ICBDC B: 300",
+            "ICBDC C: 300",
+            "CBDC is a claim on an intermediary",
+            "Intermediaries onboard (KYC) and handle retail payments",
+            "Central bank handles wholesale payments",
+            "Direct CBDC (digital banknotes/central bank accounts/single-cell/central bank cryptocurrency)",
+            "Central bank",
+            "Assets 600",
+            "CBDC A: 200",
+            "CBDC B: 100",
+            "CBDC C: 300",
+            "CBDC is a claim on central bank",
+            "Intermediaries or central bank onboard (KYC)",
+            "Central bank handles retail payments",
+            "Hybrid CBDC",
+            "Central bank",
+            "CBDC-PSP X",
+            "CBDC-PSP Y",
+            "CBDC is a claim on central bank",
+            "Intermediaries onboard (KYC) and handle retail payments",
+            "Central bank periodically records retail balances",
+            "Source: 'The technology of retail central bank digital currency', BIS (3/20)"
+        ],
+        "slide_number": 28
+    },
+    {
+        "title": "CBDC – Opportunities",
+        "text": [
+            "Continue Government Provision of a Means of Payment",
+            "Promote Competition in Banking System",
+            "Promote Financial Inclusion & P2P Payments",
+            "Address Payment System ‘Pain Points’",
+            "For Some Nations, Possibly Avert Sanctions"
+        ],
+        "slide_number": 29
+    },
+    {
+        "title": "CBDC - Challenges & Uncertainties",
+        "text": [
+            "Financial Stability and Potential to Increase Ease of Bank Runs",
+            "Changes to Commercial Banks' Deposits and Funding Models",
+            "Effects on Credit Allocation and Economy",
+            "Monetary Policy Implementation & Transmission",
+            "Resilience of Open Payment Infrastructures"
+        ],
+        "slide_number": 30
+    },
+    {
+        "title": "Ground Truths",
+        "text": [
+            "Nakamoto solved the payments riddle - avoiding double spending",
+            "Money is but a social & economic construct",
+            "We already live in an age of digital money",
+            "Append-only logs & multiparty consensus provides a peer-2-peer alternative",
+            "Blockchain technology can address verification and networking costs",
+            "Adoption rests on addressing comparative viability & value proposition"
+        ],
+        "slide_number": 31
+    },
+    {
+        "title": "Ground Truths",
+        "text": [
+            "Crypto markets are rife with scams, fraud, hacks & manipulation",
+            "Cryptocurrencies have evolved into a speculative asset class",
+            "Crowdfunding built on smart contracts & ICOs raised nearly $30 billion",
+            "Lightly & non regulated markets provide retail investors direct way to trade",
+            "The potential, though, to be a catalyst for change is real"
+        ],
+        "slide_number": 32
+    }
+]

@@ -1,0 +1,209 @@
+[
+    {
+        "title": "",
+        "text": [],
+        "slide_number": 1
+    },
+    {
+        "title": "AI Policy and Finance",
+        "text": [
+            "AI Policy and Finance"
+        ],
+        "slide_number": 2
+    },
+    {
+        "title": "Class 3: Readings",
+        "text": [
+            "'Artificial Intelligence Applications in Financial Services' Oliver Wyman (Section on 'How is AI Applied in Financial Services?')",
+            "'Artificial Intelligence & Financial Services – Fall 2019 Report' Mayer Brown (Section on 'AI and Big Data Regulatory Risks Under Banking and Consumer Financial Laws')",
+            "'Fintech: Understanding AI Use in Financial Services' Julie Stackhouse, St. Louis Federal Reserve Bank"
+        ],
+        "slide_number": 3
+    },
+    {
+        "title": "Class 3: Study Questions",
+        "text": [
+            "How do new forms of AI enabled data analytics, pattern recognition, chatbots, natural language processing, and robotic process automation fit within other emerging FinTech trends?",
+            "How has it affected the competitive landscape of financial incumbents, big tech firms and fintech startups?"
+        ],
+        "slide_number": 4
+    },
+    {
+        "title": "Finance Technology Stack",
+        "text": [
+            "Open API >",
+            "AI, ML & NLP >",
+            "Cloud >",
+            "Mobile >",
+            "Internet >"
+        ],
+        "slide_number": 5
+    },
+    {
+        "title": "AI and Machine Learning",
+        "text": [
+            "DL - => 2010's => ML with Multi-layer Neural Networks",
+            "RL – ML Extracting Features of Data Sets",
+            "ML – 1980's => Machines Improve with Experience",
+            "AI – 1950's => Computers Mimic Human Intelligence",
+            "Deep Learning",
+            "Representation Learning",
+            "Machine Learning",
+            "Artificial Intelligence"
+        ],
+        "slide_number": 6
+    },
+    {
+        "title": "AI and Machine Learning - Finance",
+        "text": [
+            "Asset Management",
+            "Call Centers, Chatbots, Robo-Advising & Virtual Assistants",
+            "Credit & Insurance - Allocation, Extension, Pricing & Scoring",
+            "Fraud Detection & Prevention",
+            "Regulatory – Anti Money Laundering, Anti Manipulation",
+            "Risk Management & Underwriting",
+            "Robotic Process Automation",
+            "Trading",
+            "Deep Learning",
+            "Representation Learning",
+            "Machine Learning",
+            "Artificial Intelligence"
+        ],
+        "slide_number": 7
+    },
+    {
+        "title": "AI and Machine Learning - Finance",
+        "text": [
+            "AI as a Tool",
+            "Big Finance, Big Tech, & FinTech Disrupters",
+            "AI as a Service",
+            "AlphaSense (2011) – Search Engine",
+            "Cape Analytics (2014) – Insurance Property Risk Analytics",
+            "ComplyAdvantage (2014) – Anti-Money laundering & KYC Software",
+            "Dataminr (2009) - Market Sentiment Analysis",
+            "Featurespace (2008) – Anti-fraud Software",
+            "HyperScience (2014) – Document Processing",
+            "Tractable (2014) – Insurance Claims Processing",
+            "Zest AI (2009) – Credit Underwriting Software",
+            "Zesty.ai (2015) – P & C Insurance Risk Analytics",
+            "Deep Learning",
+            "Representation Learning",
+            "Machine Learning",
+            "Artificial Intelligence"
+        ],
+        "slide_number": 8
+    },
+    {
+        "title": "AI and Machine Learning - Finance",
+        "text": [
+            "Credit Karma (2007)",
+            "Free Credit Report Platform",
+            "$7.1B Merger announced with Intuit (February 2020)",
+            "Nearly $1B 2019 Revenues;",
+            "106M members; 37M Monthly Active Members; 2600+ data points per member; 8 Billion Daily Model Predictions",
+            "Plaid (2013)",
+            "Open API Software & Data Aggregator",
+            "$5.3B Merger announced with Visa (January 2020)",
+            "Estimated $109M Revenues",
+            "200+ Million Accounts Linked; 11,000 Financial Cos; 2,600 FinTech Developers",
+            "Sources: 'Intuit Acquisition of Credit Karma' Intuit (2/24/20); 'Visa's Acquisition of Plaid', Visa (1/13/20); & 'What's Visa Going To Do With Plaid', Forbes (1/20/20) for Plaid Rev Est."
+        ],
+        "slide_number": 9
+    },
+    {
+        "title": "Finance Public Policy Framework",
+        "text": [
+            "Money & Lending",
+            "Financial Stability",
+            "Protecting the Consumer & Investing Public",
+            "Guarding Against Illicit Activity",
+            "INVESTOR PROTECTION",
+            "CONSUMER PROTECTION",
+            "MARKET INTEGRITY",
+            "TAX EVASION",
+            "SANCTIONS"
+        ],
+        "slide_number": 10
+    },
+    {
+        "slide_number": 11
+    },
+    {
+        "slide_number": 12
+    },
+    {
+        "title": "Alternative Data",
+        "text": [
+            "Bank, Checking, Employment, Income, Insurance, Tenant, Utilities",
+            "Cash Flow Underwriting",
+            "Consumption and Purchase Transactional Data",
+            "App Usage, Browsing History, Email Receipt, Geolocation, Social Media Data",
+            "Educational Background, Employer, Occupation, Work History"
+        ],
+        "slide_number": 13
+    },
+    {
+        "title": "",
+        "text": [],
+        "slide_number": 14
+    },
+    {
+        "title": "Apple Credit Card",
+        "text": [
+            "She spoke to two Apple reps.",
+            "Both very nice, courteous people",
+            "representing an utterly broken and reprehensible system.",
+            "The first person was like “I don’t know why, but I swear we’re not",
+            "discriminating, IT'S JUST THE ALGORITHM”. I shit you not.",
+            "“IT'S JUST THE ALGORITHM!”",
+            "4,849 6:20 PM - Nov 8, 2019"
+        ],
+        "slide_number": 15
+    },
+    {
+        "title": "Apple Credit Card",
+        "text": [
+            "Steve Wozniak",
+            "@stevewoz",
+            "I'm a current Apple employee and founder of the company and the same thing happened to us (10x) despite not having any separate assets or accounts. Some say the blame is on Goldman Sachs but the way Apple is attached, they should share responsibility.",
+            "3,113 2:06 AM - Nov 10, 2019"
+        ],
+        "slide_number": 16
+    },
+    {
+        "title": "AI & U.S. Consumer Credit Laws",
+        "text": [
+            "Equal Credit Opportunity Act (ECOA)",
+            "Disparate Treatment or Disparate Impact",
+            "Regulation B on Notices on Actions",
+            "Fair Housing Act",
+            "Fair Credit Reporting Act (FCRA)",
+            "Consumer Reporting Agencies and Consumer Reports",
+            "Notice Requirements on Adverse Actions",
+            "Unfair, Deceptive, and Abusive Acts and Practices (UDAAPs) - CFPB",
+            "Unfair and Deceptive Acts and Practices (UDAP) - FTC & States"
+        ],
+        "slide_number": 17
+    },
+    {
+        "title": "AI & Privacy Laws",
+        "text": [
+            "Europe – General Date Protection Regulation (GDPR)",
+            "U.S. Federal –FCRA, Gramm Leach Bliley, & Right to Financial Privacy Act",
+            "U.S. States – California Consumer Privacy Act (CCPA)"
+        ],
+        "slide_number": 18
+    },
+    {
+        "title": "AI, Finance, & Geopolitics",
+        "text": [
+            "Finance is Interconnected Globally and Regulated Locally",
+            "Countries’ Financial Sectors Vary in Development, Concentration and Public Sector Involvement",
+            "International Organizations (OECD ...) Guidelines generally at High level",
+            "Financial Policy Standard Setters (Basal, FATF, IOSCO ..) are Non-Binding",
+            "No Internationally Enforceable Standards",
+            "Competing models on AI, Finance & Policy Trade-offs"
+        ],
+        "slide_number": 19
+    }
+]

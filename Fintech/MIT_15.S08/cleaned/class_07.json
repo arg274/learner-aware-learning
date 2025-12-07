@@ -1,0 +1,372 @@
+{
+  "metadata": {
+    "video_path": "data/MIT_15.S08/cropped_videos/07_JuKKBf-uSDI.mp4",
+    "pdf_path": "data/MIT_15.S08/pdf/bf6652b320e525192082e047279ed17d_MIT15-S08S20_class7.pdf",
+    "duration": 4842.504333333333,
+    "sampling_fps": 1.0,
+    "phash_high_threshold": 0.7,
+    "phash_gap_threshold": 0.05,
+    "ocr_batch_size": 16,
+    "ocr_similarity_threshold": 0.7,
+    "total_slides_in_pdf": 29,
+    "method": "hybrid (pHash + DeepSeek OCR)"
+  },
+  "statistics": {
+    "total_samples": 5005,
+    "phash_matches": 4162,
+    "ocr_matches": 791,
+    "no_matches": 52
+  },
+  "segments": [
+    {
+      "slide_number": null,
+      "start_time": 0.0,
+      "end_time": 11.611600000000001,
+      "duration": 11.611600000000001,
+      "match_method": "no_match"
+    },
+    {
+      "slide_number": 1,
+      "start_time": 11.611600000000001,
+      "end_time": 101.6015,
+      "duration": 89.9899,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 2,
+      "start_time": 101.6015,
+      "end_time": 183.85033333333334,
+      "duration": 82.24883333333334,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 3,
+      "start_time": 183.85033333333334,
+      "end_time": 220.62040000000002,
+      "duration": 36.77006666666668,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 4,
+      "start_time": 220.62040000000002,
+      "end_time": 808.9414666666667,
+      "duration": 588.3210666666666,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 5,
+      "start_time": 808.9414666666667,
+      "end_time": 903.7695333333334,
+      "duration": 94.8280666666667,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 6,
+      "start_time": 903.7695333333334,
+      "end_time": 1087.6198666666667,
+      "duration": 183.8503333333333,
+      "match_method": "ocr"
+    },
+    {
+      "slide_number": null,
+      "start_time": 1087.6198666666667,
+      "end_time": 1093.4256666666668,
+      "duration": 5.80580000000009,
+      "match_method": "no_match"
+    },
+    {
+      "slide_number": 7,
+      "start_time": 1093.4256666666668,
+      "end_time": 1853.9854666666668,
+      "duration": 760.5598,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 8,
+      "start_time": 1853.9854666666668,
+      "end_time": 1920.7521666666667,
+      "duration": 66.7666999999999,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 9,
+      "start_time": 1920.7521666666667,
+      "end_time": 1951.7164333333333,
+      "duration": 30.964266666666617,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 10,
+      "start_time": 1951.7164333333333,
+      "end_time": 1971.0691,
+      "duration": 19.352666666666664,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": null,
+      "start_time": 1971.0691,
+      "end_time": 1972.0367333333334,
+      "duration": 0.9676333333334242,
+      "match_method": "no_match"
+    },
+    {
+      "slide_number": 8,
+      "start_time": 1972.0367333333334,
+      "end_time": 2018.4831333333334,
+      "duration": 46.44640000000004,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": null,
+      "start_time": 2018.4831333333334,
+      "end_time": 2023.3213,
+      "duration": 4.838166666666666,
+      "match_method": "no_match"
+    },
+    {
+      "slide_number": 11,
+      "start_time": 2023.3213,
+      "end_time": 2236.2006333333334,
+      "duration": 212.8793333333333,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": null,
+      "start_time": 2236.2006333333334,
+      "end_time": 2243.9417,
+      "duration": 7.741066666666484,
+      "match_method": "no_match"
+    },
+    {
+      "slide_number": 12,
+      "start_time": 2243.9417,
+      "end_time": 2327.1581666666666,
+      "duration": 83.21646666666675,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 13,
+      "start_time": 2327.1581666666666,
+      "end_time": 2389.0867,
+      "duration": 61.928533333333235,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": null,
+      "start_time": 2389.0867,
+      "end_time": 2397.7954,
+      "duration": 8.708700000000135,
+      "match_method": "no_match"
+    },
+    {
+      "slide_number": 14,
+      "start_time": 2397.7954,
+      "end_time": 2464.5621,
+      "duration": 66.76670000000013,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 15,
+      "start_time": 2464.5621,
+      "end_time": 2494.5587333333333,
+      "duration": 29.996633333333193,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 16,
+      "start_time": 2494.5587333333333,
+      "end_time": 3011.2749333333336,
+      "duration": 516.7162000000003,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": null,
+      "start_time": 3011.2749333333336,
+      "end_time": 3014.177833333333,
+      "duration": 2.9028999999995904,
+      "match_method": "no_match"
+    },
+    {
+      "slide_number": 18,
+      "start_time": 3014.177833333333,
+      "end_time": 3119.6498666666666,
+      "duration": 105.47203333333346,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 17,
+      "start_time": 3119.6498666666666,
+      "end_time": 3197.0605333333333,
+      "duration": 77.41066666666666,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 18,
+      "start_time": 3197.0605333333333,
+      "end_time": 3203.8339666666666,
+      "duration": 6.773433333333287,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 19,
+      "start_time": 3203.8339666666666,
+      "end_time": 3414.7780333333335,
+      "duration": 210.9440666666669,
+      "match_method": "ocr"
+    },
+    {
+      "slide_number": 17,
+      "start_time": 3414.7780333333335,
+      "end_time": 3438.9688666666666,
+      "duration": 24.190833333333103,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 18,
+      "start_time": 3438.9688666666666,
+      "end_time": 3515.4119,
+      "duration": 76.44303333333346,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": null,
+      "start_time": 3515.4119,
+      "end_time": 3517.347166666667,
+      "duration": 1.9352666666668483,
+      "match_method": "no_match"
+    },
+    {
+      "slide_number": 20,
+      "start_time": 3517.347166666667,
+      "end_time": 3809.5724333333333,
+      "duration": 292.22526666666636,
+      "match_method": "ocr"
+    },
+    {
+      "slide_number": 21,
+      "start_time": 3809.5724333333333,
+      "end_time": 3832.7956333333336,
+      "duration": 23.22320000000036,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 22,
+      "start_time": 3832.7956333333336,
+      "end_time": 3856.9864666666667,
+      "duration": 24.190833333333103,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 23,
+      "start_time": 3856.9864666666667,
+      "end_time": 3921.8179,
+      "duration": 64.83143333333328,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 24,
+      "start_time": 3921.8179,
+      "end_time": 4063.0923666666667,
+      "duration": 141.27446666666674,
+      "match_method": "ocr"
+    },
+    {
+      "slide_number": 25,
+      "start_time": 4063.0923666666667,
+      "end_time": 4085.3479333333335,
+      "duration": 22.25556666666671,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 26,
+      "start_time": 4085.3479333333335,
+      "end_time": 4128.891433333333,
+      "duration": 43.54349999999977,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": 25,
+      "start_time": 4128.891433333333,
+      "end_time": 4193.722866666667,
+      "duration": 64.83143333333373,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": null,
+      "start_time": 4193.722866666667,
+      "end_time": 4195.658133333333,
+      "duration": 1.9352666666663936,
+      "match_method": "no_match"
+    },
+    {
+      "slide_number": 24,
+      "start_time": 4195.658133333333,
+      "end_time": 4386.2819,
+      "duration": 190.6237666666666,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": null,
+      "start_time": 4386.2819,
+      "end_time": 4387.249533333334,
+      "duration": 0.9676333333336515,
+      "match_method": "no_match"
+    },
+    {
+      "slide_number": 26,
+      "start_time": 4387.249533333334,
+      "end_time": 4394.9906,
+      "duration": 7.741066666666484,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": null,
+      "start_time": 4394.9906,
+      "end_time": 4395.958233333334,
+      "duration": 0.9676333333336515,
+      "match_method": "no_match"
+    },
+    {
+      "slide_number": 24,
+      "start_time": 4395.958233333334,
+      "end_time": 4537.2327000000005,
+      "duration": 141.27446666666674,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": null,
+      "start_time": 4537.2327000000005,
+      "end_time": 4538.200333333333,
+      "duration": 0.967633333332742,
+      "match_method": "no_match"
+    },
+    {
+      "slide_number": 27,
+      "start_time": 4538.200333333333,
+      "end_time": 4648.510533333333,
+      "duration": 110.3101999999999,
+      "match_method": "phash"
+    },
+    {
+      "slide_number": null,
+      "start_time": 4648.510533333333,
+      "end_time": 4654.316333333333,
+      "duration": 5.80580000000009,
+      "match_method": "no_match"
+    },
+    {
+      "slide_number": 28,
+      "start_time": 4654.316333333333,
+      "end_time": 4832.360866666667,
+      "duration": 178.04453333333367,
+      "match_method": "ocr"
+    },
+    {
+      "slide_number": null,
+      "start_time": 4832.360866666667,
+      "end_time": 4842.504333333333,
+      "duration": 10.143466666666427,
+      "match_method": "no_match"
+    }
+  ]
+}
